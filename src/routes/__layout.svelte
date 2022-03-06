@@ -13,6 +13,11 @@
 		// 		headers: { authorization: token ? `Bearer ${token}` : '' },
 		// 	};
 		// },
+		fetchOptions: () => ({
+			headers: {
+				Authorization: $store?.token,
+			}
+		})
 	});
 	setClient(client);
 
