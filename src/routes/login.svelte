@@ -1,3 +1,19 @@
+<script>
+    import { operationStore, query } from '@urql/svelte';
+
+    const me = operationStore(`
+		query {
+          me {
+            id
+          }
+        }
+	  `);
+    query($me);
+
+    console.log(me);
+
+</script>
+
 <svelte:head>
     <title>Login</title>
 </svelte:head>
