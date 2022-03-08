@@ -90,7 +90,9 @@
                     <div class="form-item">
                         <!-- FORM INPUT -->
                         <div class="form-input">
-<!--                            <label for="login-username">Username or Email</label>-->
+                            {#if !email}
+                                <label for="login-username">Username or Email</label>
+                            {/if}
                             <input bind:value={email} type="text" id="login-username" name="login_username">
                         </div>
                         <!-- /FORM INPUT -->
@@ -105,7 +107,9 @@
                     <div class="form-item">
                         <!-- FORM INPUT -->
                         <div class="form-input">
-<!--                            <label for="login-password">Password</label>-->
+                            {#if !password}
+                                <label for="login-password">Password</label>
+                            {/if}
                             <input bind:value={password} type="password" id="login-password" name="login_password">
                         </div>
                         <!-- /FORM INPUT -->

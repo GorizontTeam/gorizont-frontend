@@ -99,7 +99,9 @@
                     <div class="form-item">
                         <!-- FORM INPUT -->
                         <div class="form-input">
-<!--                            <label for="register-email">Your Email</label>-->
+                            {#if !email}
+                                <label for="register-email">Your Email</label>
+                            {/if}
                             <input bind:value={email} type="text" id="register-email" name="register_email">
                         </div>
                         <!-- /FORM INPUT -->
@@ -114,7 +116,9 @@
                     <div class="form-item">
                         <!-- FORM INPUT -->
                         <div class="form-input">
-<!--                            <label for="register-password">Password</label>-->
+                            {#if !password}
+                                <label for="register-password">Password</label>
+                            {/if}
                             <input bind:value={password} type="password" id="register-password" name="register_password">
                         </div>
                         <!-- /FORM INPUT -->
@@ -129,7 +133,9 @@
                     <div class="form-item">
                         <!-- FORM INPUT -->
                         <div class="form-input">
-<!--                            <label for="register-password-repeat">Repeat Password</label>-->
+                            {#if !passwordRepeat}
+                                <label for="register-password-repeat">Repeat Password</label>
+                            {/if}
                             <input bind:value={passwordRepeat} type="password" id="register-password-repeat" name="register_password_repeat">
                         </div>
                         <!-- /FORM INPUT -->
