@@ -1,68 +1,11 @@
 <script>
-    import { operationStore, query, mutation } from '@urql/svelte';
+    import { writable } from 'svelte/store'
+    import { browser } from "$app/env";
 
-    import { onMount } from 'svelte';
-    import { createClient, setClient } from '@urql/svelte';
-    import { writable } from 'svelte/store';
+    let user;
 
-    let email = '';
-    let password = '';
-    let isAuthenticated = false;
-
-    const login = operationStore(`
-        mutation ($login: String!, $password: String!){
-          login (login: $login, password: $password){
-            ok
-            token
-            errors
-            user {
-              id
-              lastLogin
-              isSuperuser
-              username
-              firstName
-              lastName
-              email
-              isStaff
-              isActive
-              dateJoined
-              isTeacher
-              phoneNumber
-            }
-          }
-        }`,
-    );
-    const loginMutation = mutation(login);
-
-    export let store = writable(null);
-    onMount(() => {
-        let _user;
-        _user = localStorage.getItem('user');
-        if (_user) {
-            store.set(JSON.parse(_user));
-        }
-        store.subscribe((value) => {
-            if (value) {
-                localStorage.setItem('user', JSON.stringify(value));
-                isAuthenticated = true;
-            }
-            else {
-                localStorage.removeItem('user');
-                isAuthenticated = false;
-            }
-        });
-    });
-
-    let loginError;
-    function auth(data) {
-        loginMutation(data).then(result => {
-            if (result.data.login.errors) {
-                loginError = result.data.login.errors[0];
-                console.log(result);
-                return
-            }
-            $store = result.data.login;
-        });
+    if (typeof window !== 'undefined') {
+        user = JSON.parse(localStorage.getItem('user')).user;
     }
 
 </script>
@@ -72,7 +15,7 @@
 </svelte:head>
 
 
-{#if isAuthenticated}
+{#if user}
     <div style="display: flex; justify-content: center;">
         <div style="padding: 20px; max-width: 1000px; border-radius: 10px; background-color: white">
             <div >
@@ -82,12 +25,9 @@
 
                 <div class="user-short-description big mt-3" style="padding: 0">
                     <!-- USER SHORT DESCRIPTION TITLE -->
-                    <p class="user-short-description-title"><a href="profile-timeline.html">Marina Valentine</a></p>
+                    <p class="user-short-description-title"><a href="profile-timeline.html">{user.username} {user.lastName}</a></p>
                     <!-- /USER SHORT DESCRIPTION TITLE -->
 
-                    <!-- USER SHORT DESCRIPTION TEXT -->
-                    <p class="user-short-description-text"><a href="#">www.gamehuntress.com</a></p>
-                    <!-- /USER SHORT DESCRIPTION TEXT -->
                 </div>
                 <!--                <div class="mt-3" style="display: flex; align-content: center; flex-wrap: wrap;">-->
                 <!--                    <div class="user-stats">-->
