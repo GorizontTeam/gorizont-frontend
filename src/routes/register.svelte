@@ -81,22 +81,6 @@
     <title>Register</title>
 </svelte:head>
 
-
-{#if isAuthenticated}
-    <div class="">
-        <!-- login form -->
-        <div class="login-form">
-            <!-- login -->
-            <div class="form-box login-register-form-element">
-                <!-- FORM BOX TITLE -->
-                <h2 class="form-box-title">You are registered in! Congrats!</h2>
-                <!-- /FORM BOX TITLE -->
-            </div>
-            <!-- /login -->
-        </div>
-        <!-- /login form -->
-    </div>
-{:else}
 <!-- reg -->
 <div class="">
     <!-- reg form -->
@@ -183,7 +167,7 @@
                     <!-- FORM ITEM -->
                     <div class="form-item">
                         <!-- BUTTON -->
-                        <button on:click={register({ email: email, password: password, passwordRepeat: passwordRepeat })} type="button" class="button medium primary">Register Now!</button>
+                        <button type="button" on:click={register({ email: email, password: password, passwordRepeat: passwordRepeat })} class="button medium primary">Register Now!</button>
                         <!-- /BUTTON -->
                     </div>
                     <!-- /FORM ITEM -->
@@ -207,7 +191,6 @@
     <!-- /reg form -->
 </div>
 <!-- /reg -->
-{/if}
 
 <style>
     .login-form {

@@ -2023,8 +2023,8 @@
 <!--</aside>-->
 <!-- /CHAT WIDGET -->
 
-<!--<Header />-->
+<Header />
 
-<main>
+<main style="padding-top: 100px">
 	<slot />
 </main>

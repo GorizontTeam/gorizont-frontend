@@ -62,6 +62,7 @@
                 return
             }
             $store = result.data.login;
+            window.location.href="/profile";
         });
     }
 
@@ -70,23 +71,6 @@
 <svelte:head>
     <title>Login</title>
 </svelte:head>
-
-
-{#if isAuthenticated}
-    <div class="">
-        <!-- login form -->
-        <div class="login-form">
-            <!-- login -->
-            <div class="form-box login-register-form-element">
-                <!-- FORM BOX TITLE -->
-                <h2 class="form-box-title">You are logged in! Congrats!</h2>
-                <!-- /FORM BOX TITLE -->
-            </div>
-            <!-- /login -->
-        </div>
-        <!-- /login form -->
-    </div>
-{:else}
 
 <!-- login -->
 <div class="">
@@ -167,7 +151,7 @@
                     <!-- FORM ITEM -->
                     <div class="form-item">
                         <!-- BUTTON -->
-                        <div on:click={auth({ login: email, password: password })} class="button medium secondary">Login to your Account!</div>
+                        <button type="button" on:click={auth({ login: email, password: password })} class="button medium secondary">Login to your Account!</button>
                         <!-- /BUTTON -->
                     </div>
                     <!-- /FORM ITEM -->
@@ -235,7 +219,6 @@
     <!-- /login form -->
 </div>
 <!-- /login -->
-{/if}
 
 <style>
     .login-form {
