@@ -14,7 +14,7 @@ app.querySelector('#search-main', function (el) {
     controlToggle: true,
     closeOnWindowClick: false
   });
-  
+
   const searchInput = el[0],
         breakpointWidth = 960;
 
