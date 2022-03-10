@@ -13,10 +13,9 @@ COPY . /app/
 # define the default command to run when starting the container
 RUN npm ci
 
-RUN npm run-script build
-
 EXPOSE 3000
 
 ENV HOST=0.0.0.0
 
-CMD [ "npm", "start" ]
+RUN npm run-script build
+CMD [ "node", "build/index.js"]
