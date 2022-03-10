@@ -782,7 +782,7 @@
 	<!-- /NAVIGATION WIDGET SECTION TITLE -->
 
 	<!-- NAVIGATION WIDGET SECTION LINK -->
-	<a class="navigation-widget-section-link" href="hub-account-info.html">Account Info</a>
+	<a class="navigation-widget-section-link" href="/profile-settings">Account Info</a>
 	<!-- /NAVIGATION WIDGET SECTION LINK -->
 
 	<!-- NAVIGATION WIDGET SECTION LINK -->
@@ -2946,11 +2946,11 @@
 				<!-- /DROPDOWN NAVIGATION CATEGORY -->
 
 				<!-- DROPDOWN NAVIGATION LINK -->
-				<a class="dropdown-navigation-link" href="hub-account-info.html">Account Info</a>
+				<a class="dropdown-navigation-link" href="/profile-settings">Account Info</a>
 				<!-- /DROPDOWN NAVIGATION LINK -->
 
 				<!-- DROPDOWN NAVIGATION LINK -->
-				<a class="dropdown-navigation-link" href="hub-account-password.html">Change Password</a>
+				<a class="dropdown-navigation-link" href="/password-edit">Change Password</a>
 				<!-- /DROPDOWN NAVIGATION LINK -->
 
 				<!-- DROPDOWN NAVIGATION LINK -->
