@@ -1,5 +1,18 @@
+<script>
+    import {onMount} from 'svelte';
+
+    let pageLoader;
+    onMount(() => {
+        pageLoader = document.getElementById('pageLoader');
+        pageLoader.classList.add('hidden');
+        // window.addEventListener('load', () => {
+        //     console.log("All resources finished loading!");
+        //     pageLoader.classList.add('hidden');
+        // });
+    });
+</script>
 <!-- PAGE LOADER -->
-<div class="page-loader">
+<div class="page-loader" id="pageLoader">
     <!-- PAGE LOADER DECORATION -->
     <div class="page-loader-decoration">
         <!-- ICON LOGO -->
