@@ -22,7 +22,15 @@
         <!-- /SECTION BANNER ICON -->
 
         <!-- SECTION BANNER TITLE -->
-        <p class="section-banner-title">Достижения</p>
+        <p class="section-banner-title">
+            {#if passStatus === 0}
+                Достижения
+            {:else if passStatus === 1}
+                Достигнутые достижения
+            {:else if passStatus === 2}
+                Недостигнутые достижения
+            {/if}
+        </p>
         <!-- /SECTION BANNER TITLE -->
 
 <!--        &lt;!&ndash; SECTION BANNER TEXT &ndash;&gt;-->
