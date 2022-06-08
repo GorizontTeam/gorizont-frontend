@@ -876,7 +876,7 @@
 			<!-- /LOGO -->
 
 			<!-- HEADER BRAND TEXT -->
-			<h1 class="header-brand-text">Vikinger</h1>
+			<h1 class="header-brand-text">Горизонт</h1>
 			<!-- /HEADER BRAND TEXT -->
 		</div>
 		<!-- /HEADER BRAND -->
@@ -922,7 +922,7 @@
 				<!-- MENU MAIN ITEM -->
 				<li class="menu-main-item">
 					<!-- MENU MAIN ITEM LINK -->
-					<a class="menu-main-item-link" href="#">Home</a>
+					<a class="menu-main-item-link" href="#">Курсы</a>
 					<!-- /MENU MAIN ITEM LINK -->
 				</li>
 				<!-- /MENU MAIN ITEM -->
@@ -930,7 +930,7 @@
 				<!-- MENU MAIN ITEM -->
 				<li class="menu-main-item">
 					<!-- MENU MAIN ITEM LINK -->
-					<a class="menu-main-item-link" href="#">Careers</a>
+					<a class="menu-main-item-link" href="#">Наставничество</a>
 					<!-- /MENU MAIN ITEM LINK -->
 				</li>
 				<!-- /MENU MAIN ITEM -->
@@ -938,7 +938,7 @@
 				<!-- MENU MAIN ITEM -->
 				<li class="menu-main-item">
 					<!-- MENU MAIN ITEM LINK -->
-					<a class="menu-main-item-link" href="#">Faqs</a>
+					<a class="menu-main-item-link" href="#">Личный кабинет</a>
 					<!-- /MENU MAIN ITEM LINK -->
 				</li>
 				<!-- /MENU MAIN ITEM -->
@@ -1003,7 +1003,7 @@
 	<div class="header-actions search-bar">
 		<!-- INTERACTIVE INPUT -->
 		<div class="interactive-input dark">
-			<input type="text" id="search-main" name="search_main" placeholder="Search here for people or groups">
+			<input type="text" id="search-main" name="search_main" placeholder="Поиск">
 			<!-- INTERACTIVE INPUT ICON WRAP -->
 			<div class="interactive-input-icon-wrap">
 				<!-- INTERACTIVE INPUT ICON -->
