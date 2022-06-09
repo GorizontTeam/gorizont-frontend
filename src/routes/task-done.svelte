@@ -23,8 +23,8 @@
                     <!-- /STREAM BOX VIEWS -->
                 </div>
                 <div>
-                    <div class="button small" style="padding-right: 20px; padding-left: 20px; cursor: initial; background-color: #44c88d">
-                        начато
+                    <div class="button small" style="padding-right: 20px; padding-left: 20px; cursor: initial;">
+                        ожидает проверки
                     </div>
                 </div>
             </div>
@@ -83,9 +83,32 @@
         </div>
         <!-- /WIDGET BOX -->
 
-        <a class="button twitch" href="/task-done" style="padding-right: 20px; padding-left: 20px; width: fit-content">
-            сдать задание
-        </a>
+        <!-- WIDGET BOX -->
+        <div class="widget-box">
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title">Проверяющие:</p>
+            <!-- /WIDGET BOX TITLE -->
+
+            <!-- WIDGET BOX CONTENT -->
+            <p class="widget-box-text mt-3">- Райнур Хаснов</p>
+            <!-- /WIDGET BOX CONTENT -->
+        </div>
+        <!-- /WIDGET BOX -->
+
+        <!-- WIDGET BOX -->
+        <div class="widget-box">
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title">Комментарии:</p>
+            <!-- /WIDGET BOX TITLE -->
+
+            <input class="mt-3" type="text" placeholder="добавьте комментарий">
+
+            <div class="mt-3" style="padding: 10px; background-color: #f8f8fb; border-radius: 10px;">
+                <p class="widget-box-text">Райнур Хаснов: <span style="color: #a3a3a5">все отлично!</span></p>
+            </div>
+        </div>
+        <!-- /WIDGET BOX -->
+
     </div>
     <!-- /GRID COLUMN -->
 </div>

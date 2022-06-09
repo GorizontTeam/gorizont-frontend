@@ -13,7 +13,7 @@ body {
     font-family: "Mont Semibold", serif !important;
 }
 
-a, h1, h2, h3, h4, h5, h6, p, textarea {
+a, h1, h2, h3, h4, h5, h6, p, textarea, input {
     color: #3e3f5e;
     font-family: "Mont Semibold", serif !important;
     line-height: 1em;
