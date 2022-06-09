@@ -58,7 +58,7 @@
                                     <!-- FORM INPUT -->
                                     <div class="form-input small active">
                                         <label for="profile-name">Имя</label>
-                                        <input type="text" id="profile-name" name="profile_name" value="Райнур">
+                                        <input type="text" id="profile-name" name="profile_name" value="Марина">
                                     </div>
                                     <!-- /FORM INPUT -->
                                 </div>
@@ -69,7 +69,7 @@
                                     <!-- FORM INPUT -->
                                     <div class="form-input small active">
                                         <label for="profile-name">Номер телефона</label>
-                                        <input type="text" id="profile-name" name="profile_name" value="89999999999">
+                                        <input type="text" id="profile-name" name="profile_name" value="89297543857">
                                     </div>
                                     <!-- /FORM INPUT -->
                                 </div>
