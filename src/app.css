@@ -12,3 +12,13 @@
 body {
     font-family: "Mont Semibold", serif !important;
 }
+
+a, h1, h2, h3, h4, h5, h6, p {
+    color: #3e3f5e;
+    font-family: "Mont Semibold", serif !important;
+    line-height: 1em;
+}
+
+button {
+    font-family: "Mont Semibold", serif !important;
+}
