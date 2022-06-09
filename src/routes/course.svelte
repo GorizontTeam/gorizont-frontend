@@ -23,7 +23,7 @@
                     <!-- /STREAM BOX VIEWS -->
                 </div>
                 <div>
-                    <a class="button small twitch" href="" target="_blank" style="padding-right: 20px; padding-left: 20px">
+                    <a class="button small twitch" href="/task" style="padding-right: 20px; padding-left: 20px">
                         начать курс
                     </a>
                 </div>
