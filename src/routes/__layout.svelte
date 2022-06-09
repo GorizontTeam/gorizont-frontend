@@ -28,6 +28,6 @@
 <Loader />
 <Header />
 
-<main style="padding-top: 100px; display: flex; justify-content: center" class="mb-5">
+<main style="padding-top: 100px; display: flex; justify-content: center;" class="mb-5">
 	<slot />
 </main>

@@ -20,8 +20,8 @@
     <!-- PROFILE HEADER -->
     <div class="profile-header">
         <!-- PROFILE HEADER COVER -->
-        <figure class="profile-header-cover liquid" style="background: url(&quot;img/cover/01.jpg&quot;) center center / cover no-repeat;">
-            <img src="img/cover/01.jpg" alt="cover-01" style="display: none;">
+        <figure class="profile-header-cover liquid" style="background: url(&quot;img/cover/54.jpg&quot;) center center / cover no-repeat;">
+            <img src="img/cover/54.jpg" alt="cover-01" style="display: none;">
         </figure>
         <!-- /PROFILE HEADER COVER -->
 
@@ -293,11 +293,11 @@
                     <!-- PROGRESS ARC SUMMARY INFO -->
                     <div class="progress-arc-summary-info">
                         <!-- PROGRESS ARC SUMMARY TITLE -->
-                        <a href="" class="progress-arc-summary-title">Текущее задание</a>
+                        <a href="" class="progress-arc-summary-title">Создать калькулятор</a>
                         <!-- /PROGRESS ARC SUMMARY TITLE -->
 
                         <!-- PROGRESS ARC SUMMARY TITLE -->
-                        <p class="progress-arc-summary-subtitle">Создать калькулятор</p>
+                        <p class="progress-arc-summary-subtitle">Текущее задание</p>
                         <!-- /PROGRESS ARC SUMMARY TITLE -->
 
                         <!-- PROGRESS ARC SUMMARY TITLE -->
@@ -515,11 +515,11 @@
                     <!-- PROGRESS ARC SUMMARY INFO -->
                     <div class="progress-arc-summary-info">
                         <!-- PROGRESS ARC SUMMARY TITLE -->
-                        <a href="" class="progress-arc-summary-title">Текущий курс</a>
+                        <a href="" class="progress-arc-summary-title">Программирование на Python</a>
                         <!-- /PROGRESS ARC SUMMARY TITLE -->
 
                         <!-- PROGRESS ARC SUMMARY TITLE -->
-                        <p class="progress-arc-summary-subtitle">Программирование на Python</p>
+                        <p class="progress-arc-summary-subtitle">Текущий курс</p>
                         <!-- /PROGRESS ARC SUMMARY TITLE -->
 
                         <!-- PROGRESS ARC SUMMARY TITLE -->
