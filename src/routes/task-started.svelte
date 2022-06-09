@@ -23,9 +23,9 @@
                     <!-- /STREAM BOX VIEWS -->
                 </div>
                 <div>
-                    <a class="button small twitch" href="/task-started" style="padding-right: 20px; padding-left: 20px">
-                        начать задание
-                    </a>
+                    <div class="button" style="padding-right: 20px; padding-left: 20px; cursor: initial; background-color: #44c88d">
+                        начато
+                    </div>
                 </div>
             </div>
             <!-- /STREAM BOX INFO -->
@@ -43,6 +43,7 @@
             <!-- /WIDGET BOX CONTENT -->
         </div>
         <!-- /WIDGET BOX -->
+
         <!-- WIDGET BOX -->
         <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
@@ -57,6 +58,34 @@
             <!-- /WIDGET BOX CONTENT -->
         </div>
         <!-- /WIDGET BOX -->
+
+        <!-- WIDGET BOX -->
+        <div class="widget-box">
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title">Решение:</p>
+            <!-- /WIDGET BOX TITLE -->
+
+            <!-- WIDGET BOX CONTENT -->
+            <textarea class="mt-3" placeholder="Напишите сюда свое решение" rows="10"></textarea>
+            <!-- /WIDGET BOX CONTENT -->
+        </div>
+        <!-- /WIDGET BOX -->
+
+        <!-- WIDGET BOX -->
+        <div class="widget-box">
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title mb-3">Загрузить файлы:</p>
+            <!-- /WIDGET BOX TITLE -->
+
+            <!-- WIDGET BOX CONTENT -->
+            <input type="file">
+            <!-- /WIDGET BOX CONTENT -->
+        </div>
+        <!-- /WIDGET BOX -->
+
+        <a class="button twitch" href="/task-done" style="padding-right: 20px; padding-left: 20px; width: fit-content">
+            сдать задание
+        </a>
     </div>
     <!-- /GRID COLUMN -->
 </div>
