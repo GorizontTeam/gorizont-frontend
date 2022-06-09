@@ -569,7 +569,7 @@
                 <div class="form-input-decorated">
                     <!-- FORM INPUT -->
                     <div class="form-input small">
-                        <label for="event-date" style="position: initial">Оконячание события</label>
+                        <label for="event-date" style="position: initial">Окончание события</label>
                         <input type="datetime-local" id="event-date" name="event_date" style="background-color: #fff; border: 1px solid #dedeea; color: #3e3f5e; transition: border-color .2s ease-in-out; width: 100%;
     border-radius: 12px;
     font-size: 1rem;
