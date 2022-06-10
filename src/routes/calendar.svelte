@@ -640,9 +640,29 @@
                     <!-- /DECORATED FEATURE TEXT -->
                 </div>
                 <!-- /DECORATED FEATURE INFO -->
+
             </div>
             <!-- /DECORATED FEATURE -->
+        </div>
 
+        <!-- DECORATED FEATURE LIST -->
+        <div class="decorated-feature-list">
+            <!-- DECORATED FEATURE -->
+            <div class="decorated-feature">
+                <!-- DECORATED FEATURE INFO -->
+                <div class="decorated-feature-info" style="margin-left: 0">
+                    <!-- DECORATED FEATURE TITLE -->
+                    <p class="decorated-feature-title">Статус</p>
+                    <!-- /DECORATED FEATURE TITLE -->
+
+                    <!-- DECORATED FEATURE TEXT -->
+                    <p class="decorated-feature-text">В ожидании</p>
+                    <!-- /DECORATED FEATURE TEXT -->
+                </div>
+                <!-- /DECORATED FEATURE INFO -->
+
+            </div>
+            <!-- /DECORATED FEATURE -->
         </div>
         <!-- /DECORATED FEATURE LIST -->
 
