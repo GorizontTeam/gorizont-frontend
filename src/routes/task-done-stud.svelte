@@ -62,11 +62,19 @@
         <!-- WIDGET BOX -->
         <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title">Решение:</p>
+            <p class="widget-box-title">Мои решения:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
-            <textarea class="mt-3" placeholder="Напишите сюда свое решение" rows="10"></textarea>
+            <p class="mt-2">Ваше решение, которое вы отправили</p>
+            <!-- /WIDGET BOX CONTENT -->
+
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title mt-5 mb-2">Загруженные файлы:</p>
+            <!-- /WIDGET BOX TITLE -->
+
+            <!-- WIDGET BOX CONTENT -->
+            <a href="#" style="text-decoration: underline">файл</a>
             <!-- /WIDGET BOX CONTENT -->
         </div>
         <!-- /WIDGET BOX -->
@@ -74,7 +82,15 @@
         <!-- WIDGET BOX -->
         <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title mb-3">Загрузить файлы:</p>
+            <p class="widget-box-title">Решение:</p>
+            <!-- /WIDGET BOX TITLE -->
+
+            <!-- WIDGET BOX CONTENT -->
+            <textarea class="mt-3" placeholder="Напишите сюда свое решение" rows="10"></textarea>
+            <!-- /WIDGET BOX CONTENT -->
+
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title mt-5 mb-3">Загрузить файлы:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
@@ -90,15 +106,11 @@
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
-            <p class="widget-box-text mt-3">- Райнур Хаснов</p>
+            <p class="widget-box-text mt-2">- Райнур Хаснов</p>
             <!-- /WIDGET BOX CONTENT -->
-        </div>
-        <!-- /WIDGET BOX -->
 
-        <!-- WIDGET BOX -->
-        <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title">Комментарии:</p>
+            <p class="widget-box-title mt-5">Комментарии:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <input class="mt-3" type="text" placeholder="добавьте комментарий">
@@ -122,13 +134,9 @@
                 <option value="4">4</option>
                 <option value="5">5</option>
             </select>
-        </div>
-        <!-- /WIDGET BOX -->
 
-        <!-- WIDGET BOX -->
-        <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title">Статус:</p>
+            <p class="widget-box-title mt-5">Статус:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <select class="mt-3" name="" id="" style="padding: 5px 10px 5px 10px">

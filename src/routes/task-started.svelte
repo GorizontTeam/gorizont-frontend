@@ -67,14 +67,9 @@
 
             <!-- WIDGET BOX CONTENT -->
             <textarea class="mt-3" placeholder="Напишите сюда свое решение" rows="10"></textarea>
-            <!-- /WIDGET BOX CONTENT -->
-        </div>
-        <!-- /WIDGET BOX -->
 
-        <!-- WIDGET BOX -->
-        <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title mb-3">Загрузить файлы:</p>
+            <p class="widget-box-title mt-3 mb-3">Загрузить файлы:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
