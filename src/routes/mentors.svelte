@@ -30,18 +30,20 @@
                     <a class="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
                         <!-- USER AVATAR CONTENT -->
                         <div class="hexagon-image-82-90" data-src="img/avatar/05.jpg" style="width: 82px; height: 90px; position: relative;">
-                            <img src="img/avatar/05.jpg" alt="cover-04" style="border-radius: 100px">
+                            <img src="img/avatar/05.jpg" alt="cover-04" style="border-radius: 100px;max-width: 125px;">
                         </div>
                         <!-- /USER AVATAR CONTENT -->
                     </a>
                     <!-- /USER SHORT DESCRIPTION AVATAR -->
 
                     <!-- USER SHORT DESCRIPTION TITLE -->
-                    <p class="user-short-description-title"><a href="profile-timeline.html">NekoBebop</a></p>
+                    <p class="user-short-description-title"><a href="profile-timeline.html">Алия</a></p>
                     <!-- /USER SHORT DESCRIPTION TITLE -->
 
                     <!-- USER SHORT DESCRIPTION TEXT -->
-                    <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p>
+                    <p class="user-short-description-text">
+                        <a href="#">#python</a> <a href="#">#django</a> <a href="#">#graphql</a>
+                    </p>
                     <!-- /USER SHORT DESCRIPTION TEXT -->
                 </div>
                 <!-- /USER SHORT DESCRIPTION -->
@@ -55,11 +57,11 @@
                             <!-- USER STAT -->
                             <div class="user-stat">
                                 <!-- USER STAT TITLE -->
-                                <p class="user-stat-title">874</p>
+                                <p class="user-stat-title">2</p>
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">posts</p>
+                                <p class="user-stat-text">статьи</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -71,7 +73,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">friends</p>
+                                <p class="user-stat-text">друзей</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -83,7 +85,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">visits</p>
+                                <p class="user-stat-text">визиты</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -98,7 +100,7 @@
                 <!-- USER PREVIEW ACTIONS -->
                 <div class="user-preview-actions">
                     <!-- BUTTON -->
-                    <p class="button secondary">Add Friend +</p>
+                    <a href="/mentor" class="button secondary">Подробнее</a>
                     <!-- /BUTTON -->
                 </div>
                 <!-- /USER PREVIEW ACTIONS -->
@@ -119,19 +121,21 @@
                     <!-- USER SHORT DESCRIPTION AVATAR -->
                     <a class="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
                         <!-- USER AVATAR CONTENT -->
-                        <div class="hexagon-image-82-90" data-src="img/avatar/05.jpg" style="width: 82px; height: 90px; position: relative;">
-                            <img src="img/avatar/05.jpg" alt="cover-04" style="border-radius: 100px">
+                        <div class="hexagon-image-82-90" data-src="img/avatar/06.jpg" style="width: 82px; height: 90px; position: relative;">
+                            <img src="img/avatar/06.jpg" alt="cover-04" style="border-radius: 100px; max-width: 125px;">
                         </div>
                         <!-- /USER AVATAR CONTENT -->
                     </a>
                     <!-- /USER SHORT DESCRIPTION AVATAR -->
 
                     <!-- USER SHORT DESCRIPTION TITLE -->
-                    <p class="user-short-description-title"><a href="profile-timeline.html">NekoBebop</a></p>
+                    <p class="user-short-description-title"><a href="profile-timeline.html">Марат</a></p>
                     <!-- /USER SHORT DESCRIPTION TITLE -->
 
                     <!-- USER SHORT DESCRIPTION TEXT -->
-                    <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p>
+                    <p class="user-short-description-text">
+                        <a href="#">#js</a> <a href="#">#react</a> <a href="#">#angular</a>
+                    </p>
                     <!-- /USER SHORT DESCRIPTION TEXT -->
                 </div>
                 <!-- /USER SHORT DESCRIPTION -->
@@ -145,11 +149,11 @@
                             <!-- USER STAT -->
                             <div class="user-stat">
                                 <!-- USER STAT TITLE -->
-                                <p class="user-stat-title">874</p>
+                                <p class="user-stat-title">2</p>
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">posts</p>
+                                <p class="user-stat-text">статьи</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -161,7 +165,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">friends</p>
+                                <p class="user-stat-text">друзей</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -173,7 +177,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">visits</p>
+                                <p class="user-stat-text">визиты</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -188,7 +192,7 @@
                 <!-- USER PREVIEW ACTIONS -->
                 <div class="user-preview-actions">
                     <!-- BUTTON -->
-                    <p class="button secondary">Add Friend +</p>
+                    <a href="/mentor" class="button secondary">Подробнее</a>
                     <!-- /BUTTON -->
                 </div>
                 <!-- /USER PREVIEW ACTIONS -->
@@ -209,19 +213,21 @@
                     <!-- USER SHORT DESCRIPTION AVATAR -->
                     <a class="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
                         <!-- USER AVATAR CONTENT -->
-                        <div class="hexagon-image-82-90" data-src="img/avatar/05.jpg" style="width: 82px; height: 90px; position: relative;">
-                            <img src="img/avatar/05.jpg" alt="cover-04" style="border-radius: 100px">
+                        <div class="hexagon-image-82-90" data-src="img/avatar/06.jpg" style="width: 82px; height: 90px; position: relative;">
+                            <img src="img/avatar/09.jpg" alt="cover-04" style="border-radius: 100px; max-width: 125px;">
                         </div>
                         <!-- /USER AVATAR CONTENT -->
                     </a>
                     <!-- /USER SHORT DESCRIPTION AVATAR -->
 
                     <!-- USER SHORT DESCRIPTION TITLE -->
-                    <p class="user-short-description-title"><a href="profile-timeline.html">NekoBebop</a></p>
+                    <p class="user-short-description-title"><a href="profile-timeline.html">Александра</a></p>
                     <!-- /USER SHORT DESCRIPTION TITLE -->
 
                     <!-- USER SHORT DESCRIPTION TEXT -->
-                    <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p>
+                    <p class="user-short-description-text">
+                        <a href="#">#seo</a>
+                    </p>
                     <!-- /USER SHORT DESCRIPTION TEXT -->
                 </div>
                 <!-- /USER SHORT DESCRIPTION -->
@@ -235,11 +241,11 @@
                             <!-- USER STAT -->
                             <div class="user-stat">
                                 <!-- USER STAT TITLE -->
-                                <p class="user-stat-title">874</p>
+                                <p class="user-stat-title">2</p>
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">posts</p>
+                                <p class="user-stat-text">статьи</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -251,7 +257,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">friends</p>
+                                <p class="user-stat-text">друзей</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -263,7 +269,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">visits</p>
+                                <p class="user-stat-text">визиты</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -278,7 +284,7 @@
                 <!-- USER PREVIEW ACTIONS -->
                 <div class="user-preview-actions">
                     <!-- BUTTON -->
-                    <p class="button secondary">Add Friend +</p>
+                    <a href="/mentor" class="button secondary">Подробнее</a>
                     <!-- /BUTTON -->
                 </div>
                 <!-- /USER PREVIEW ACTIONS -->
@@ -299,19 +305,21 @@
                     <!-- USER SHORT DESCRIPTION AVATAR -->
                     <a class="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
                         <!-- USER AVATAR CONTENT -->
-                        <div class="hexagon-image-82-90" data-src="img/avatar/05.jpg" style="width: 82px; height: 90px; position: relative;">
-                            <img src="img/avatar/05.jpg" alt="cover-04" style="border-radius: 100px">
+                        <div class="hexagon-image-82-90" data-src="img/avatar/06.jpg" style="width: 82px; height: 90px; position: relative;">
+                            <img src="img/avatar/12.jpg" alt="cover-04" style="border-radius: 100px; max-width: 125px;">
                         </div>
                         <!-- /USER AVATAR CONTENT -->
                     </a>
                     <!-- /USER SHORT DESCRIPTION AVATAR -->
 
                     <!-- USER SHORT DESCRIPTION TITLE -->
-                    <p class="user-short-description-title"><a href="profile-timeline.html">NekoBebop</a></p>
+                    <p class="user-short-description-title"><a href="profile-timeline.html">Антон</a></p>
                     <!-- /USER SHORT DESCRIPTION TITLE -->
 
                     <!-- USER SHORT DESCRIPTION TEXT -->
-                    <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p>
+                    <p class="user-short-description-text">
+                        <a href="#">#python</a> <a href="#">#datascience</a>
+                    </p>
                     <!-- /USER SHORT DESCRIPTION TEXT -->
                 </div>
                 <!-- /USER SHORT DESCRIPTION -->
@@ -325,11 +333,11 @@
                             <!-- USER STAT -->
                             <div class="user-stat">
                                 <!-- USER STAT TITLE -->
-                                <p class="user-stat-title">874</p>
+                                <p class="user-stat-title">2</p>
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">posts</p>
+                                <p class="user-stat-text">статьи</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -341,7 +349,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">friends</p>
+                                <p class="user-stat-text">друзей</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -353,7 +361,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">visits</p>
+                                <p class="user-stat-text">визиты</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -368,7 +376,7 @@
                 <!-- USER PREVIEW ACTIONS -->
                 <div class="user-preview-actions">
                     <!-- BUTTON -->
-                    <p class="button secondary">Add Friend +</p>
+                    <a href="/mentor" class="button secondary">Подробнее</a>
                     <!-- /BUTTON -->
                 </div>
                 <!-- /USER PREVIEW ACTIONS -->
@@ -389,19 +397,21 @@
                     <!-- USER SHORT DESCRIPTION AVATAR -->
                     <a class="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
                         <!-- USER AVATAR CONTENT -->
-                        <div class="hexagon-image-82-90" data-src="img/avatar/05.jpg" style="width: 82px; height: 90px; position: relative;">
-                            <img src="img/avatar/05.jpg" alt="cover-04" style="border-radius: 100px">
+                        <div class="hexagon-image-82-90" data-src="img/avatar/06.jpg" style="width: 82px; height: 90px; position: relative;">
+                            <img src="img/avatar/20.jpg" alt="cover-04" style="border-radius: 100px; max-width: 125px;">
                         </div>
                         <!-- /USER AVATAR CONTENT -->
                     </a>
                     <!-- /USER SHORT DESCRIPTION AVATAR -->
 
                     <!-- USER SHORT DESCRIPTION TITLE -->
-                    <p class="user-short-description-title"><a href="profile-timeline.html">NekoBebop</a></p>
+                    <p class="user-short-description-title"><a href="profile-timeline.html">Руслан</a></p>
                     <!-- /USER SHORT DESCRIPTION TITLE -->
 
                     <!-- USER SHORT DESCRIPTION TEXT -->
-                    <p class="user-short-description-text"><a href="#">www.store.com/nekoprints</a></p>
+                    <p class="user-short-description-text">
+                        <a href="#">#js</a> <a href="#">#ts</a> <a href="#">#vue</a>
+                    </p>
                     <!-- /USER SHORT DESCRIPTION TEXT -->
                 </div>
                 <!-- /USER SHORT DESCRIPTION -->
@@ -415,11 +425,11 @@
                             <!-- USER STAT -->
                             <div class="user-stat">
                                 <!-- USER STAT TITLE -->
-                                <p class="user-stat-title">874</p>
+                                <p class="user-stat-title">2</p>
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">posts</p>
+                                <p class="user-stat-text">статьи</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -431,7 +441,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">friends</p>
+                                <p class="user-stat-text">друзей</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -443,7 +453,7 @@
                                 <!-- /USER STAT TITLE -->
 
                                 <!-- USER STAT TEXT -->
-                                <p class="user-stat-text">visits</p>
+                                <p class="user-stat-text">визиты</p>
                                 <!-- /USER STAT TEXT -->
                             </div>
                             <!-- /USER STAT -->
@@ -458,7 +468,7 @@
                 <!-- USER PREVIEW ACTIONS -->
                 <div class="user-preview-actions">
                     <!-- BUTTON -->
-                    <p class="button secondary">Add Friend +</p>
+                    <a href="/mentor" class="button secondary">Подробнее</a>
                     <!-- /BUTTON -->
                 </div>
                 <!-- /USER PREVIEW ACTIONS -->

@@ -1,19 +1,63 @@
 <script>
-    import { writable } from 'svelte/store'
-    import { browser } from "$app/env";
+    import { onMount } from 'svelte';
 
-    let user;
+    let openEventPopup;
+    let closeEventPopup;
+    let isEventPopupOpened = false;
 
-    if (typeof window !== 'undefined') {
-        user = JSON.parse(localStorage.getItem('user')).user;
-    }
-
+    onMount(() => {
+        openEventPopup = () => {
+            let popup = document.getElementById('eventPopup');
+            let eventPopupBack = document.getElementById('eventPopupBack');
+            if (isEventPopupOpened) {
+                popup.style.cssText = 'position: absolute; left: 50%; z-index: 100001; opacity: 0; visibility: hidden; transform: translate(0px, -40px); transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s; top: 0px; margin-left: -292px;';
+                eventPopupBack.style.cssText = 'width: 100%; height: 100%; background-color: rgba(21, 21, 31, 0.96); position: fixed; top: 0px; left: 0px; z-index: 100000; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s;';
+                isEventPopupOpened = false;
+            }
+            else {
+                popup.style.cssText = 'position: fixed; left: 50%; z-index: 100001; opacity: 1; visibility: visible; transform: translate(0px, 0px); transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s; top: 100px; margin-left: -292px;';
+                eventPopupBack.style.cssText = 'width: 100%; height: 100%; background-color: rgba(21, 21, 31, 0.96); position: fixed; top: 0px; left: 0px; z-index: 100000; opacity: 1; visibility: visible; transition: opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s;';
+                isEventPopupOpened = true;
+            }
+        };
+        closeEventPopup = () => {
+            let popup = document.getElementById('eventPopup');
+            let eventPopupBack = document.getElementById('eventPopupBack');
+            popup.style.cssText = 'position: absolute; left: 50%; z-index: 100001; opacity: 0; visibility: hidden; transform: translate(0px, -40px); transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s; top: 0px; margin-left: -292px;';
+            eventPopupBack.style.cssText = 'width: 100%; height: 100%; background-color: rgba(21, 21, 31, 0.96); position: fixed; top: 0px; left: 0px; z-index: 100000; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s;';
+            isEventPopupOpened = false;
+        };
+    });
 </script>
 
-<svelte:head>
-    <title>Profile</title>
-</svelte:head>
+<div id="eventPopupBack" style="width: 100%; height: 100%; background-color: rgba(21, 21, 31, 0.96); position: fixed; top: 0px; left: 0px; z-index: 100000; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s;"></div>
+<!-- POPUP EVENT -->
+<div id="eventPopup" class="popup-event popup-event-information" style="position: absolute; left: 50%; z-index: 100001; opacity: 0; visibility: hidden; transform: translate(0px, -40px); transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s; top: 0px; margin-left: -292px;">
+    <!-- POPUP CLOSE BUTTON -->
+    <div on:click={closeEventPopup} class="popup-close-button ">
+        <!-- POPUP CLOSE BUTTON ICON -->
+        <svg class="popup-close-button-icon icon-cross">
+            <use xlink:href="#svg-cross"></use>
+        </svg>
+        <!-- /POPUP CLOSE BUTTON ICON -->
+    </div>
+    <!-- /POPUP CLOSE BUTTON -->
 
+
+    <!-- POPUP EVENT INFO -->
+    <div class="popup-event-info">
+        <!-- POPUP EVENT TITLE -->
+        <p class="popup-event-title">Ваша заявка успешно отправилась.</p>
+        <!-- /POPUP EVENT TITLE -->
+
+        <!-- POPUP EVENT SUBTITLE -->
+        <p class="popup-event-subtitle">Ждем ответа от наставника!</p>
+        <!-- /POPUP EVENT SUBTITLE -->
+    </div>
+    <!-- /POPUP EVENT INFO -->
+
+</div>
+<!-- /POPUP EVENT -->
 
 <!-- CONTENT GRID -->
 <div class="content-grid">
@@ -291,6 +335,29 @@
                 <!-- PROGRESS ARC SUMMARY -->
                 <div class="progress-arc-summary">
                     <!-- PROGRESS ARC SUMMARY INFO -->
+                    <div class="progress-arc-summary-info" style="margin-top: 0">
+                        <!-- PROGRESS ARC SUMMARY TITLE -->
+                        <p href="" class="progress-arc-summary-title">Я наставник!<br>Пиши, помогу тебе с вопросами:)</p>
+                        <!-- /PROGRESS ARC SUMMARY TITLE -->
+
+                        <!-- PROGRESS ARC SUMMARY TITLE -->
+                        <p class="progress-arc-summary-subtitle">
+                            <a href="#">#js</a> <a href="#">#ts</a> <a href="#">#vue</a>
+                        </p>
+                        <!-- /PROGRESS ARC SUMMARY TITLE -->
+                        <button on:click={openEventPopup} class="button small twitch mt-4" style="width: fit-content; padding: 0 15px 0 15px">Подать заявку</button>
+                    </div>
+                    <!-- /PROGRESS ARC SUMMARY INFO -->
+                </div>
+                <!-- /PROGRESS ARC SUMMARY -->
+            </div>
+            <!-- /WIDGET BOX -->
+
+            <!-- WIDGET BOX -->
+            <div class="widget-box">
+                <!-- PROGRESS ARC SUMMARY -->
+                <div class="progress-arc-summary">
+                    <!-- PROGRESS ARC SUMMARY INFO -->
                     <div class="progress-arc-summary-info">
                         <!-- PROGRESS ARC SUMMARY TITLE -->
                         <a href="" class="progress-arc-summary-title">Создать калькулятор</a>
@@ -535,70 +602,9 @@
         <!-- /GRID COLUMN -->
     </div>
     <!-- /GRID -->
+
 </div>
 <!-- /CONTENT GRID -->
 
-
-<!--{#if user}-->
-<!--    <div style="display: flex; justify-content: center;">-->
-<!--        <div style="padding: 20px; max-width: 1000px; border-radius: 10px; background-color: white">-->
-<!--            <div >-->
-<!--                <div>-->
-<!--                    <img style="width: 100%; border-radius: 10px;" src="img/cover/04.jpg" alt="cover-04">-->
-<!--                </div>-->
-
-<!--                <div class="user-short-description big mt-3" style="padding: 0">-->
-<!--                    &lt;!&ndash; USER SHORT DESCRIPTION TITLE &ndash;&gt;-->
-<!--                    <p class="user-short-description-title"><a href="profile-timeline.html">-->
-<!--&lt;!&ndash;                        {user.username} {user.lastName}&ndash;&gt;-->
-<!--                        username-->
-<!--                    </a></p>-->
-<!--                    &lt;!&ndash; /USER SHORT DESCRIPTION TITLE &ndash;&gt;-->
-
-<!--                </div>-->
-<!--                &lt;!&ndash;                <div class="mt-3" style="display: flex; align-content: center; flex-wrap: wrap;">&ndash;&gt;-->
-<!--                &lt;!&ndash;                    <div class="user-stats">&ndash;&gt;-->
-<!--                &lt;!&ndash;                        <div class="user-stat big">&ndash;&gt;-->
-<!--                &lt;!&ndash;                            <p class="user-stat-title">930</p>&ndash;&gt;-->
-<!--                &lt;!&ndash;                            <p class="user-stat-text">posts</p>&ndash;&gt;-->
-<!--                &lt;!&ndash;                        </div>&ndash;&gt;-->
-<!--                &lt;!&ndash;                        <div class="user-stat big">&ndash;&gt;-->
-<!--                &lt;!&ndash;                            <p class="user-stat-title">930</p>&ndash;&gt;-->
-<!--                &lt;!&ndash;                            <p class="user-stat-text">posts</p>&ndash;&gt;-->
-<!--                &lt;!&ndash;                        </div>&ndash;&gt;-->
-<!--                &lt;!&ndash;                        <div class="user-stat big">&ndash;&gt;-->
-<!--                &lt;!&ndash;                            <p class="user-stat-title">930</p>&ndash;&gt;-->
-<!--                &lt;!&ndash;                            <p class="user-stat-text">posts</p>&ndash;&gt;-->
-<!--                &lt;!&ndash;                        </div>&ndash;&gt;-->
-
-<!--                &lt;!&ndash;                        <div class="user-stat big">&ndash;&gt;-->
-<!--                &lt;!&ndash;                            <img class="user-stat-image" src="img/flag/usa.png" alt="flag-usa">&ndash;&gt;-->
-<!--                &lt;!&ndash;                            <p class="user-stat-text">usa</p>&ndash;&gt;-->
-<!--                &lt;!&ndash;                        </div>&ndash;&gt;-->
-<!--                &lt;!&ndash;                    </div>&ndash;&gt;-->
-<!--                &lt;!&ndash;                </div>&ndash;&gt;-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--{:else}-->
-<!--    <div class="">-->
-<!--        &lt;!&ndash; login form &ndash;&gt;-->
-<!--        <div class="login-form">-->
-<!--            &lt;!&ndash; login &ndash;&gt;-->
-<!--            <div class="form-box login-register-form-element">-->
-<!--                &lt;!&ndash; FORM BOX TITLE &ndash;&gt;-->
-<!--                <h2 class="form-box-title">You need to log in</h2>-->
-<!--                &lt;!&ndash; /FORM BOX TITLE &ndash;&gt;-->
-<!--            </div>-->
-<!--            &lt;!&ndash; /login &ndash;&gt;-->
-<!--        </div>-->
-<!--        &lt;!&ndash; /login form &ndash;&gt;-->
-<!--    </div>-->
-<!--{/if}-->
-
 <style>
-    .login-form {
-        display: flex;
-        justify-content: center;
-    }
 </style>
