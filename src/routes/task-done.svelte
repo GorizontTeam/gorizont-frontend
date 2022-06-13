@@ -35,19 +35,29 @@
         <!-- WIDGET BOX -->
         <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title">Описание:</p>
+            <p class="widget-box-title mb-2">Описание задания:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
-            <p class="widget-box-text">Описание задания</p>
+            <p class="widget-box-text">
+                Для настольной игры используются карточки с номерами от 1 до N. Одна карточка потерялась. Найдите ее, зная номера оставшихся карточек.
+                Дано число N, далее N − 1 номер оставшихся карточек (различные числа от 1 до N). Программа должна вывести номер потерянной карточки.
+            </p>
+            <p class="widget-box-text">
+                Для самых умных: массивами и аналогичными структурами данных пользоваться нельзя.
+            </p>
+            <p class="widget-box-text">
+                Начальный код написан и прикреплен к заданию. Скачать файл, дописать задачу в файле, сохранить, загрузить сюда и отправить на проверку.
+            </p>
             <!-- /WIDGET BOX CONTENT -->
-        </div>
-        <!-- /WIDGET BOX -->
 
-        <!-- WIDGET BOX -->
-        <div class="widget-box">
+            <p class="widget-box-title mt-5 mb-2">Критерии оценки:</p>
+            <p class="widget-box-text">
+                Задача должна быть полностью выполнена. За полное выполнение пользователь получает 10 баллов.
+            </p>
+
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title mb-3">Файлы:</p>
+            <p class="widget-box-title mb-3 mt-5">Файлы:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
@@ -62,39 +72,19 @@
         <!-- WIDGET BOX -->
         <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title">Мои решения:</p>
-            <!-- /WIDGET BOX TITLE -->
-
-            <!-- WIDGET BOX CONTENT -->
-            <p class="mt-2">Ваше решение, которое вы отправили</p>
-            <!-- /WIDGET BOX CONTENT -->
-
-            <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title mt-5 mb-2">Загруженные файлы:</p>
-            <!-- /WIDGET BOX TITLE -->
-
-            <!-- WIDGET BOX CONTENT -->
-            <a href="#" style="text-decoration: underline">файл</a>
-            <!-- /WIDGET BOX CONTENT -->
-        </div>
-        <!-- /WIDGET BOX -->
-
-        <!-- WIDGET BOX -->
-        <div class="widget-box">
-            <!-- WIDGET BOX TITLE -->
             <p class="widget-box-title">Решение:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
-            <textarea class="mt-3" placeholder="Напишите сюда свое решение" rows="10"></textarea>
+            <textarea class="mt-3" disabled placeholder="Решение сделано через цикл for использую два if. Полное решение можете посмотерть в прикрепленном файле." rows="10"></textarea>
             <!-- /WIDGET BOX CONTENT -->
 
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title mt-5 mb-3">Загрузить файлы:</p>
+            <p class="widget-box-title mt-5 mb-3">Загруженные файлы:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
-            <input type="file">
+            <a href="#" style="text-decoration: underline">файл</a>
             <!-- /WIDGET BOX CONTENT -->
         </div>
         <!-- /WIDGET BOX -->
@@ -107,7 +97,10 @@
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
-            <p class="widget-box-text mt-2">- Райнур Хаснов</p>
+            <div class="mt-2">
+                <p class="widget-box-text">- Райнур Хаснов</p>
+                <p class="widget-box-text">- Марат Залялов</p>
+            </div>
             <!-- /WIDGET BOX CONTENT -->
 
             <!-- WIDGET BOX TITLE -->
