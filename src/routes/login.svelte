@@ -9,6 +9,8 @@
     let password = '';
     let isAuthenticated = false;
 
+    let openProfile;
+
     const login = operationStore(`
         mutation ($login: String!, $password: String!){
           login (login: $login, password: $password){
@@ -36,6 +38,10 @@
 
     export let store = writable(null);
     onMount(() => {
+        openProfile = () => {
+            document.location.pathname = '/profile';
+        };
+
         let _user;
         _user = localStorage.getItem('user');
         if (_user) {
@@ -123,7 +129,7 @@
                     <!-- FORM ITEM -->
                     <div class="form-item">
                         <!-- BUTTON -->
-                        <button type="button" on:click={auth({ login: email, password: password })} class="button medium secondary">Войти</button>
+                        <button type="button" on:click={openProfile} class="button medium secondary">Войти</button>
                         <!-- /BUTTON -->
                     </div>
                     <!-- /FORM ITEM -->

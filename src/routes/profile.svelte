@@ -13,12 +13,12 @@
 
     let refreshed = false;
 
-    onDestroy(() => {
-        if (!refreshed) {
-            document.location.reload();
-            refreshed = true;
-        }
-    });
+    // onDestroy(() => {
+    //     if (!refreshed) {
+    //         document.location.reload();
+    //         refreshed = true;
+    //     }
+    // });
 
 </script>
 
@@ -221,7 +221,7 @@
             <!-- /SECTION MENU ITEM -->
 
             <!-- SECTION MENU ITEM -->
-            <a class="section-menu-item" href="profile-groups.html">
+            <a class="section-menu-item" href="/mentors">
                 <!-- SECTION MENU ITEM ICON -->
                 <svg class="section-menu-item-icon icon-group">
                     <use xlink:href="#svg-group"></use>
@@ -249,7 +249,7 @@
             <!-- /SECTION MENU ITEM -->
 
             <!-- SECTION MENU ITEM -->
-            <a class="section-menu-item" href="profile-videos.html">
+            <a class="section-menu-item" href="/courses">
                 <!-- SECTION MENU ITEM ICON -->
                 <svg class="section-menu-item-icon icon-videos">
                     <use xlink:href="#svg-videos"></use>

@@ -5,10 +5,14 @@
     let closeEventPopup;
     let isEventPopupOpened = false;
 
+    let accepted = false;
+
     onMount(() => {
         openEventPopup = () => {
             let popup = document.getElementById('eventPopup');
             let eventPopupBack = document.getElementById('eventPopupBack');
+
+            accepted = true;
             if (isEventPopupOpened) {
                 popup.style.cssText = 'position: absolute; left: 50%; z-index: 100001; opacity: 0; visibility: hidden; transform: translate(0px, -40px); transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s; top: 0px; margin-left: -292px;';
                 eventPopupBack.style.cssText = 'width: 100%; height: 100%; background-color: rgba(21, 21, 31, 0.96); position: fixed; top: 0px; left: 0px; z-index: 100000; opacity: 0; visibility: hidden; transition: opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s;';
@@ -195,11 +199,11 @@
             </div>
             <!-- /USER STATS -->
 
-            <a href="/profile-settings" class="profile-header-info-actions">
-                <!-- PROFILE HEADER INFO ACTION -->
-                <p class="profile-header-info-action button secondary">Настройки</p>
-                <!-- /PROFILE HEADER INFO ACTION -->
-            </a>
+<!--            <a href="/profile-settings" class="profile-header-info-actions">-->
+<!--                &lt;!&ndash; PROFILE HEADER INFO ACTION &ndash;&gt;-->
+<!--                <p class="profile-header-info-action button secondary">Настройки</p>-->
+<!--                &lt;!&ndash; /PROFILE HEADER INFO ACTION &ndash;&gt;-->
+<!--            </a>-->
 
         </div>
         <!-- /PROFILE HEADER INFO -->
@@ -342,10 +346,14 @@
 
                         <!-- PROGRESS ARC SUMMARY TITLE -->
                         <p class="progress-arc-summary-subtitle">
-                            <a href="#">#js</a> <a href="#">#ts</a> <a href="#">#vue</a>
+                            <a href="#">#pyhton</a> <a href="#">#django</a> <a href="#">#drf</a> <a href="#">#GraphQL</a>
                         </p>
                         <!-- /PROGRESS ARC SUMMARY TITLE -->
-                        <button on:click={openEventPopup} class="button small twitch mt-4" style="width: fit-content; padding: 0 15px 0 15px">Подать заявку</button>
+                        {#if accepted}
+                            <button on:click={openEventPopup} class="button small mt-4" style="width: fit-content; padding: 0 15px 0 15px">Написать</button>
+                        {:else}
+                            <button on:click={openEventPopup} class="button small twitch mt-4" style="width: fit-content; padding: 0 15px 0 15px">Подать заявку</button>
+                        {/if}
                     </div>
                     <!-- /PROGRESS ARC SUMMARY INFO -->
                 </div>

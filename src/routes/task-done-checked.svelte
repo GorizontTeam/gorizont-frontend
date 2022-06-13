@@ -22,8 +22,8 @@
                     <!-- /STREAM BOX VIEWS -->
                 </div>
                 <div>
-                    <div class="button small" style="padding-right: 20px; padding-left: 20px; cursor: initial;">
-                        ожидает проверки
+                    <div class="button small" style="padding-right: 20px; padding-left: 20px; cursor: initial; background-color: #00e194">
+                        проверено
                     </div>
                 </div>
             </div>
@@ -111,6 +111,18 @@
             <div class="mt-3" style="padding: 10px; background-color: #f8f8fb; border-radius: 10px;">
                 <p class="widget-box-text">Райнур Хаснов: <span style="color: #a3a3a5">все отлично!</span></p>
             </div>
+        </div>
+        <!-- /WIDGET BOX -->
+
+        <!-- WIDGET BOX -->
+        <div class="widget-box">
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title">Оценка: 5</p>
+            <!-- /WIDGET BOX TITLE -->
+
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title mt-5">Статус: пройдено</p>
+            <!-- /WIDGET BOX TITLE -->
         </div>
         <!-- /WIDGET BOX -->
 

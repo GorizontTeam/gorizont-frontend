@@ -397,20 +397,20 @@
                     <!-- USER SHORT DESCRIPTION AVATAR -->
                     <a class="user-short-description-avatar user-avatar medium" href="profile-timeline.html">
                         <!-- USER AVATAR CONTENT -->
-                        <div class="hexagon-image-82-90" data-src="img/avatar/06.jpg" style="width: 82px; height: 90px; position: relative;">
-                            <img src="img/avatar/20.jpg" alt="cover-04" style="border-radius: 100px; max-width: 125px;">
+                        <div class="hexagon-image-82-90" data-src="img/avatar/02.jpg" style="width: 82px; height: 90px; position: relative;">
+                            <img src="img/avatar/02.jpg" alt="cover-04" style="border-radius: 100px; max-width: 125px;">
                         </div>
                         <!-- /USER AVATAR CONTENT -->
                     </a>
                     <!-- /USER SHORT DESCRIPTION AVATAR -->
 
                     <!-- USER SHORT DESCRIPTION TITLE -->
-                    <p class="user-short-description-title"><a href="profile-timeline.html">Руслан</a></p>
+                    <p class="user-short-description-title"><a href="profile-timeline.html">Айнур</a></p>
                     <!-- /USER SHORT DESCRIPTION TITLE -->
 
                     <!-- USER SHORT DESCRIPTION TEXT -->
                     <p class="user-short-description-text">
-                        <a href="#">#js</a> <a href="#">#ts</a> <a href="#">#vue</a>
+                        <a href="#">#python</a> <a href="#">#django</a> <a href="#">#drf</a> <a href="#">#GraphQL</a>
                     </p>
                     <!-- /USER SHORT DESCRIPTION TEXT -->
                 </div>

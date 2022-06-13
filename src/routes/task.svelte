@@ -61,7 +61,7 @@
 
             <!-- WIDGET BOX CONTENT -->
             <p class="widget-box-text">1 файл</p>
-            <a class="button small" href="#" style="padding-right: 20px; padding-left: 20px">
+            <a class="button small" href="/file.rtf" download style="padding-right: 20px; padding-left: 20px">
                 скачать
             </a>
             <!-- /WIDGET BOX CONTENT -->
