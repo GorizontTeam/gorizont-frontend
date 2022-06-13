@@ -1,5 +1,9 @@
+<!--<script context="module">-->
+<!--    let refreshed = false;-->
+<!--</script>-->
 <script>
     import { onMount } from 'svelte';
+    import { onDestroy } from 'svelte';
 
     let openCreateEventPopup;
     let closeCreateEventPopup;
@@ -9,7 +13,18 @@
     let closeEventPopup;
     let isEventPopupOpened = false;
 
+    let createEvent;
+
+
     onMount(() => {
+        createEvent = () => {
+            let popup = document.getElementById('createEventPopup');
+            let newEvent = document.getElementById('newEvent');
+            newEvent.style.display = 'block';
+            popup.style.visibility = 'hidden';
+            isCreateEventPopupOpened = false;
+        };
+
         openCreateEventPopup = () => {
             let popup = document.getElementById('createEventPopup');
             if (isCreateEventPopupOpened) {
@@ -33,17 +48,17 @@
             let popup = document.getElementById('eventPopup');
             if (isCreateEventPopupOpened) {
                 popup.style.visibility = 'hidden';
-                isCreateEventPopupOpened = false;
+                isEventPopupOpened = false;
             }
             else {
                 popup.style.visibility = 'visible';
-                isCreateEventPopupOpened = true;
+                isEventPopupOpened = true;
             }
         };
         closeEventPopup = () => {
             let popup = document.getElementById('eventPopup');
             popup.style.visibility = 'hidden';
-            isCreateEventPopupOpened = false;
+            isEventPopupOpened = false;
 
         };
     });
@@ -115,19 +130,11 @@
             <div class="calendar-widget-header-actions">
                 <!-- VIEW ACTIONS -->
                 <div class="view-actions" style="display: flex; align-items: center">
-<!--                    &lt;!&ndash; VIEW ACTION &ndash;&gt;-->
-<!--                    <a class="view-action text-tooltip-tft-medium active" href="events.html" data-title="Monthly">-->
-<!--                        &lt;!&ndash; VIEW ACTION ICON &ndash;&gt;-->
-<!--                        <svg class="view-action-icon icon-events-monthly">-->
-<!--                            <use xlink:href="#svg-events-monthly"></use>-->
-<!--                        </svg>-->
-<!--                        &lt;!&ndash; /VIEW ACTION ICON &ndash;&gt;-->
-<!--                    </a>-->
-<!--                    &lt;!&ndash; /VIEW ACTION &ndash;&gt;-->
-
                     <div class="section-filters-bar-actions">
                         <!-- BUTTON -->
-                        <button on:click={openCreateEventPopup} class="button secondary popup-event-creation-trigger" style="padding-left: 40px; padding-right: 40px; font-size: 17px">+ Добавить событие</button>
+                        <button on:click={openCreateEventPopup} class="button secondary popup-event-creation-trigger" style="padding-left: 40px; padding-right: 40px; font-size: 17px">
+                            + Добавить событие
+                        </button>
                         <!-- /BUTTON -->
                     </div>
                 </div>
@@ -204,6 +211,13 @@
                         <!-- CALENDAR DAY NUMBER -->
                         <p class="calendar-day-number">1</p>
                         <!-- /CALENDAR DAY NUMBER -->
+                        <!-- CALENDARY DAY EVENTS -->
+                        <div class="calendar-day-events" style="display: none;" id="newEvent">
+                            <!-- CALENDAR DAY EVENT -->
+                            <p class="calendar-day-event secondary popup-event-information-trigger"><span class="calendar-day-event-text">Первое сентября</span></p>
+                            <!-- /CALENDAR DAY EVENT -->
+                        </div>
+                        <!-- /CALENDAR DAY EVENTS -->
                     </div>
                     <!-- /CALENDAR DAY -->
 
@@ -522,7 +536,7 @@
     <!-- /POPUP BOX TITLE -->
 
     <!-- FORM -->
-    <form class="form">
+    <div class="form">
         <!-- FORM ROW -->
         <div class="form-row">
             <!-- FORM ITEM -->
@@ -586,17 +600,18 @@
         <!-- POPUP BOX ACTIONS -->
         <div class="popup-box-actions medium void">
             <!-- POPUP BOX ACTION -->
-            <button class="popup-box-action full button secondary">Создать</button>
+<!--            <input type="submit" class="popup-box-action full button secondary" value="Создать">-->
+            <button on:click={createEvent} style="position: initial" class="popup-box-action full button secondary popup-close-button popup-event-creation-trigger">Создать</button>
             <!-- /POPUP BOX ACTION -->
         </div>
         <!-- /POPUP BOX ACTIONS -->
-    </form>
+    </div>
     <!-- /FORM -->
 </div>
 <!-- /POPUP BOX -->
 
 <!-- POPUP EVENT -->
-<div id="eventPopup" class="popup-event popup-event-information" style="position: absolute; left: 50%; z-index: 100001; opacity: 0; visibility: visible; transform: translate(0px, -40px); transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s; top: 0px; margin-left: -192px;">
+<div id="eventPopup" class="popup-event popup-event-information" style="position: absolute; left: 50%; z-index: 100001; opacity: 0; visibility: hidden; transform: translate(0px, -40px); transition: transform 0.3s ease-in-out 0s, opacity 0.3s ease-in-out 0s, visibility 0.3s ease-in-out 0s; top: 0px; margin-left: -192px;">
     <!-- POPUP CLOSE BUTTON -->
     <div class="popup-close-button popup-event-information-trigger">
         <!-- POPUP CLOSE BUTTON ICON -->
@@ -616,7 +631,7 @@
     <!-- POPUP EVENT INFO -->
     <div class="popup-event-info">
         <!-- POPUP EVENT TITLE -->
-        <p class="popup-event-title">Лекция по геометрии</p>
+        <p class="popup-event-title">Первое сентября</p>
         <!-- /POPUP EVENT TITLE -->
 
         <!-- DECORATED FEATURE LIST -->
@@ -636,7 +651,7 @@
                     <!-- /DECORATED FEATURE TITLE -->
 
                     <!-- DECORATED FEATURE TEXT -->
-                    <p class="decorated-feature-text">13:00 - 14:30</p>
+                    <p class="decorated-feature-text">09:00 - 14:00</p>
                     <!-- /DECORATED FEATURE TEXT -->
                 </div>
                 <!-- /DECORATED FEATURE INFO -->
@@ -671,7 +686,7 @@
         <!-- /POPUP EVENT SUBTITLE -->
 
         <!-- POPUP EVENT TEXT -->
-        <p class="popup-event-text">Лекция по геометрии</p>
+        <p class="popup-event-text" style="margin: 0; padding: 0">Пора в школу</p>
         <!-- /POPUP EVENT TEXT -->
 
         <!-- POPUP EVENT BUTTON -->

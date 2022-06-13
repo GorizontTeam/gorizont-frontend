@@ -1,12 +1,22 @@
 <script>
     import { writable } from 'svelte/store'
     import { browser } from "$app/env";
+    import { onDestroy } from 'svelte';
 
     let user;
 
     if (typeof window !== 'undefined') {
         user = JSON.parse(localStorage.getItem('user')).user;
     }
+
+    let refreshed = false;
+
+    onDestroy(() => {
+        if (!refreshed) {
+            document.location.reload();
+            refreshed = true;
+        }
+    });
 
 </script>
 
