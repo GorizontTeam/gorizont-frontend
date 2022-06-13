@@ -342,6 +342,43 @@
                 </div>
                 <!-- /PROGRESS STAT -->
             </div>
+            <div class="badge-item-stat">
+                <!-- BADGE ITEM STAT IMAGE PREVIEW -->
+                <img class="badge-item-stat-image-preview" src="img/badge/liked-s.png" alt="badge-bronze-s">
+                <!-- /BADGE ITEM STAT IMAGE PREVIEW -->
+
+                <!-- BADGE ITEM STAT IMAGE -->
+                <img class="badge-item-stat-image" src="img/badge/liked-b.png" alt="badge-bronze-b">
+                <!-- /BADGE ITEM STAT IMAGE -->
+
+                <!-- BADGE ITEM STAT TITLE -->
+                <p class="badge-item-stat-title">Будем знакомы</p>
+                <!-- /BADGE ITEM STAT TITLE -->
+
+                <!-- BADGE ITEM STAT TEXT -->
+                <p class="badge-item-stat-text">Ты заполнил всю информацию о себе</p>
+                <!-- /BADGE ITEM STAT TEXT -->
+
+                <!-- PROGRESS STAT -->
+                <div class="progress-stat">
+                    <!-- PROGRESS STAT BAR -->
+                    <div id="badge-bronze" class="progress-stat-bar" style="width: 204px">
+                        <div style="background-color: #edecec; height: 4px; width: 204px;">
+                            <div style="background-color: #a2c6ed; width: 0%; height: 4px;"></div>
+                        </div>
+                    </div>
+                    <!-- /PROGRESS STAT BAR -->
+
+                    <!-- BAR PROGRESS WRAP -->
+                    <div class="bar-progress-wrap">
+                        <!-- BAR PROGRESS INFO -->
+                        <p class="bar-progress-info negative center">0<span class="bar-progress-text no-space">/</span>1</p>
+                        <!-- /BAR PROGRESS INFO -->
+                    </div>
+                    <!-- /BAR PROGRESS WRAP -->
+                </div>
+                <!-- /PROGRESS STAT -->
+            </div>
             <!-- /BADGE ITEM STAT -->
         </div>
     {:else if passStatus === 1}
@@ -625,6 +662,43 @@
 
                 <!-- BADGE ITEM STAT TEXT -->
                 <p class="badge-item-stat-text">Обучение пройдено</p>
+                <!-- /BADGE ITEM STAT TEXT -->
+
+                <!-- PROGRESS STAT -->
+                <div class="progress-stat">
+                    <!-- PROGRESS STAT BAR -->
+                    <div id="badge-bronze" class="progress-stat-bar" style="width: 204px">
+                        <div style="background-color: #edecec; height: 4px; width: 204px;">
+                            <div style="background-color: #a2c6ed; width: 0%; height: 4px;"></div>
+                        </div>
+                    </div>
+                    <!-- /PROGRESS STAT BAR -->
+
+                    <!-- BAR PROGRESS WRAP -->
+                    <div class="bar-progress-wrap">
+                        <!-- BAR PROGRESS INFO -->
+                        <p class="bar-progress-info negative center">0<span class="bar-progress-text no-space">/</span>1</p>
+                        <!-- /BAR PROGRESS INFO -->
+                    </div>
+                    <!-- /BAR PROGRESS WRAP -->
+                </div>
+                <!-- /PROGRESS STAT -->
+            </div>
+            <div class="badge-item-stat">
+                <!-- BADGE ITEM STAT IMAGE PREVIEW -->
+                <img class="badge-item-stat-image-preview" src="img/badge/liked-s.png" alt="badge-bronze-s">
+                <!-- /BADGE ITEM STAT IMAGE PREVIEW -->
+
+                <!-- BADGE ITEM STAT IMAGE -->
+                <img class="badge-item-stat-image" src="img/badge/liked-b.png" alt="badge-bronze-b">
+                <!-- /BADGE ITEM STAT IMAGE -->
+
+                <!-- BADGE ITEM STAT TITLE -->
+                <p class="badge-item-stat-title">Будем знакомы</p>
+                <!-- /BADGE ITEM STAT TITLE -->
+
+                <!-- BADGE ITEM STAT TEXT -->
+                <p class="badge-item-stat-text">Ты заполнил всю информацию о себе</p>
                 <!-- /BADGE ITEM STAT TEXT -->
 
                 <!-- PROGRESS STAT -->
