@@ -14,12 +14,11 @@
             <div class="stream-box-info" style="padding: 28px 28px 28px 28px; display: flex; justify-content: space-between">
                 <div>
                     <!-- STREAM BOX TITLE -->
-                    <p class="stream-box-title">Название задания</p>
+                    <p class="stream-box-title">Задание «Потерянная карточка»</p>
                     <!-- /STREAM BOX TITLE -->
 
                     <!-- STREAM BOX VIEWS -->
                     <p class="stream-box-views">15 баллов</p>
-                    <p class="stream-box-views">критерий оценки</p>
                     <!-- /STREAM BOX VIEWS -->
                 </div>
                 <div>
