@@ -88,7 +88,7 @@
         <!-- register -->
         <div class="form-box login-register-form-element">
             <!-- FORM BOX TITLE -->
-            <h2 class="form-box-title"> Create an account!</h2>
+            <h2 class="form-box-title">Регистрация</h2>
             <!-- /FORM BOX TITLE -->
 
             <!-- FORM -->
@@ -100,7 +100,7 @@
                         <!-- FORM INPUT -->
                         <div class="form-input">
                             {#if !email}
-                                <label for="register-email">Your Email</label>
+                                <label for="register-email">почта</label>
                             {/if}
                             <input bind:value={email} type="text" id="register-email" name="register_email">
                         </div>
@@ -117,7 +117,7 @@
                         <!-- FORM INPUT -->
                         <div class="form-input">
                             {#if !password}
-                                <label for="register-password">Password</label>
+                                <label for="register-password">пароль</label>
                             {/if}
                             <input bind:value={password} type="password" id="register-password" name="register_password">
                         </div>
@@ -134,7 +134,7 @@
                         <!-- FORM INPUT -->
                         <div class="form-input">
                             {#if !passwordRepeat}
-                                <label for="register-password-repeat">Repeat Password</label>
+                                <label for="register-password-repeat">повторите пароль</label>
                             {/if}
                             <input bind:value={passwordRepeat} type="password" id="register-password-repeat" name="register_password_repeat">
                         </div>
@@ -148,32 +148,8 @@
                 <div class="form-row">
                     <!-- FORM ITEM -->
                     <div class="form-item">
-                        <!-- CHECKBOX WRAP -->
-                        <div class="checkbox-wrap">
-                            <input type="checkbox" id="register-newsletter" name="register_newsletter" checked>
-                            <!-- CHECKBOX BOX -->
-                            <div class="checkbox-box">
-                                <!-- ICON CROSS -->
-                                <svg class="icon-cross">
-                                    <use xlink:href="#svg-cross"></use>
-                                </svg>
-                                <!-- /ICON CROSS -->
-                            </div>
-                            <!-- /CHECKBOX BOX -->
-                            <label for="register-newsletter">Send me news and updates via email</label>
-                        </div>
-                        <!-- /CHECKBOX WRAP -->
-                    </div>
-                    <!-- /FORM ITEM -->
-                </div>
-                <!-- /FORM ROW -->
-
-                <!-- FORM ROW -->
-                <div class="form-row">
-                    <!-- FORM ITEM -->
-                    <div class="form-item">
                         <!-- BUTTON -->
-                        <button type="button" on:click={register({ email: email, password: password, passwordRepeat: passwordRepeat })} class="button medium primary">Register Now!</button>
+                        <button type="button" on:click={register({ email: email, password: password, passwordRepeat: passwordRepeat })} class="button medium primary">Зарегистрироваться</button>
                         <!-- /BUTTON -->
                     </div>
                     <!-- /FORM ITEM -->
@@ -188,9 +164,6 @@
                 </div>
             {/if}
 
-            <!-- FORM TEXT -->
-            <p class="form-text">You'll receive a confirmation email in your inbox with a link to activate your account. If you have any problems, <a href="#">contact us</a>!</p>
-            <!-- /FORM TEXT -->
         </div>
         <!-- /register -->
     </div>

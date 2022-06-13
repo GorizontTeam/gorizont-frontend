@@ -79,7 +79,7 @@
         <!-- login -->
         <div class="form-box login-register-form-element">
             <!-- FORM BOX TITLE -->
-            <h2 class="form-box-title">Account Login</h2>
+            <h2 class="form-box-title">Войдите в аккаунт</h2>
             <!-- /FORM BOX TITLE -->
 
             <!-- FORM -->
@@ -91,7 +91,7 @@
                         <!-- FORM INPUT -->
                         <div class="form-input">
                             {#if !email}
-                                <label for="login-username">Username or Email</label>
+                                <label for="login-username">логин</label>
                             {/if}
                             <input bind:value={email} type="text" id="login-username" name="login_username">
                         </div>
@@ -108,7 +108,7 @@
                         <!-- FORM INPUT -->
                         <div class="form-input">
                             {#if !password}
-                                <label for="login-password">Password</label>
+                                <label for="login-password">пароль</label>
                             {/if}
                             <input bind:value={password} type="password" id="login-password" name="login_password">
                         </div>
@@ -119,43 +119,11 @@
                 <!-- /FORM ROW -->
 
                 <!-- FORM ROW -->
-                <div class="form-row space-between">
-                    <!-- FORM ITEM -->
-                    <div class="form-item">
-                        <!-- CHECKBOX WRAP -->
-                        <div class="checkbox-wrap">
-                            <input type="checkbox" id="login-remember" name="login_remember" checked>
-                            <!-- CHECKBOX BOX -->
-                            <div class="checkbox-box">
-                                <!-- ICON CROSS -->
-                                <svg class="icon-cross">
-                                    <use xlink:href="#svg-cross"></use>
-                                </svg>
-                                <!-- /ICON CROSS -->
-                            </div>
-                            <!-- /CHECKBOX BOX -->
-                            <label for="login-remember">Remember Me</label>
-                        </div>
-                        <!-- /CHECKBOX WRAP -->
-                    </div>
-                    <!-- /FORM ITEM -->
-
-                    <!-- FORM ITEM -->
-                    <div class="form-item">
-                        <!-- FORM LINK -->
-                        <a class="form-link" href="#">Forgot Password?</a>
-                        <!-- /FORM LINK -->
-                    </div>
-                    <!-- /FORM ITEM -->
-                </div>
-                <!-- /FORM ROW -->
-
-                <!-- FORM ROW -->
                 <div class="form-row">
                     <!-- FORM ITEM -->
                     <div class="form-item">
                         <!-- BUTTON -->
-                        <button type="button" on:click={auth({ login: email, password: password })} class="button medium secondary">Login to your Account!</button>
+                        <button type="button" on:click={auth({ login: email, password: password })} class="button medium secondary">Войти</button>
                         <!-- /BUTTON -->
                     </div>
                     <!-- /FORM ITEM -->
@@ -169,54 +137,6 @@
                     {loginError}
                 </div>
             {/if}
-
-            <!-- LINED TEXT -->
-            <p class="lined-text">Login with your Social Account</p>
-            <!-- /LINED TEXT -->
-
-            <!-- SOCIAL LINKS -->
-            <div class="social-links">
-                <!-- SOCIAL LINK -->
-                <a class="social-link facebook" href="#">
-                    <!-- ICON FACEBOOK -->
-                    <svg class="icon-facebook">
-                        <use xlink:href="#svg-facebook"></use>
-                    </svg>
-                    <!-- /ICON FACEBOOK -->
-                </a>
-                <!-- /SOCIAL LINK -->
-
-                <!-- SOCIAL LINK -->
-                <a class="social-link twitter" href="#">
-                    <!-- ICON TWITTER -->
-                    <svg class="icon-twitter">
-                        <use xlink:href="#svg-twitter"></use>
-                    </svg>
-                    <!-- /ICON TWITTER -->
-                </a>
-                <!-- /SOCIAL LINK -->
-
-                <!-- SOCIAL LINK -->
-                <a class="social-link twitch" href="#">
-                    <!-- ICON TWITCH -->
-                    <svg class="icon-twitch">
-                        <use xlink:href="#svg-twitch"></use>
-                    </svg>
-                    <!-- /ICON TWITCH -->
-                </a>
-                <!-- /SOCIAL LINK -->
-
-                <!-- SOCIAL LINK -->
-                <a class="social-link youtube" href="#">
-                    <!-- ICON YOUTUBE -->
-                    <svg class="icon-youtube">
-                        <use xlink:href="#svg-youtube"></use>
-                    </svg>
-                    <!-- /ICON YOUTUBE -->
-                </a>
-                <!-- /SOCIAL LINK -->
-            </div>
-            <!-- /SOCIAL LINKS -->
         </div>
         <!-- /login -->
     </div>
