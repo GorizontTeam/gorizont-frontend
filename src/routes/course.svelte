@@ -14,7 +14,7 @@
             <div class="stream-box-info" style="padding: 28px 28px 28px 28px; display: flex; justify-content: space-between">
                 <div>
                     <!-- STREAM BOX TITLE -->
-                    <p class="stream-box-title">Программирование на Python</p>
+                    <p class="stream-box-title">Основы прогаммирование на Python</p>
                     <!-- /STREAM BOX TITLE -->
 
                     <!-- STREAM BOX VIEWS -->
@@ -35,18 +35,42 @@
         <!-- WIDGET BOX -->
         <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title">Программа курса:</p>
+            <p class="widget-box-title">Описание курса:</p>
+            <!-- /WIDGET BOX TITLE -->
+
+            <!-- WIDGET BOX CONTENT -->
+            <div class="widget-box-content" style="margin-top: 10px">
+                <!-- WIDGET BOX TEXT -->
+                <p>Курс направлен на освоение языка программирования Python и овладение навыками создания алгоритмов для решения различных задач студентами высших учебных заведений направления биоинформатики.</p>
+
+                <!-- /WIDGET BOX TEXT -->
+            </div>
+            <!-- /WIDGET BOX CONTENT -->
+
+            <!-- WIDGET BOX TITLE -->
+            <p class="widget-box-title mt-5">Программа курса:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
             <div class="widget-box-content" style="margin-top: 10px">
                 <!-- WIDGET BOX TEXT -->
                 <ul>
-                    <li><p class="widget-box-text">1. Первое занятие</p></li>
-                    <li><p class="widget-box-text">2. Второе занятие</p></li>
-                    <li><p class="widget-box-text">3. Третье занятие</p></li>
-                    <li><p class="widget-box-text">4. Четвертое занятие</p></li>
-                    <li><p class="widget-box-text">5. Пятое занятие</p></li>
+                    <li><p class="widget-box-text">1. Задание: Hello, world!</p></li>
+                    <li><p class="widget-box-text">2. Задание: сумма трех чиcел</p></li>
+                    <li><p class="widget-box-text">3. Задание: площадь прямоугольного треугольника</p></li>
+                    <li><p class="widget-box-text">4. Задание: шнурки</p></li>
+                    <li><p class="widget-box-text">5. Задание: минимум из двух чисел</p></li>
+                    <li><p class="widget-box-text">6. Задание: шахматная доска</p></li>
+                    <li><p class="widget-box-text">7. <b style="color: #398aed">Чек поинт:</b> напиши простой калькулятор</p></li>
+                    <li><p class="widget-box-text">8. Задание: последняя цифра числа</p></li>
+                    <li><p class="widget-box-text">9. Задание: МКАД</p></li>
+                    <li><p class="widget-box-text">10. Задание: конц уроков</p></li>
+                    <li><p class="widget-box-text">11. <b style="color: #398aed">Чек поинт:</b> проценты</p></li>
+                    <li><p class="widget-box-text">12. Задание: факториал</p></li>
+                    <li><p class="widget-box-text">13. Задание: количество нулей</p></li>
+                    <li><p class="widget-box-text">14. Задание: лесенка</p></li>
+                    <li><p class="widget-box-text">15. Задание: сумму N чисел</p></li>
+                    <li><p class="widget-box-text">16. <b style="color: #398aed">Чек поинт:</b> потеренная карточка</p></li>
                 </ul>
 
                 <!-- /WIDGET BOX TEXT -->
