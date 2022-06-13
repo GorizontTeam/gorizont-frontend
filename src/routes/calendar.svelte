@@ -121,7 +121,7 @@
                 <!-- /SLIDER CONTROLS -->
 
                 <!-- CALENDAR WIDGET TITLE -->
-                <p class="calendar-widget-title">Сентябрь 2022</p>
+                <p class="calendar-widget-title">Июнь 2022</p>
                 <!-- /CALENDAR WIDGET TITLE -->
             </div>
             <!-- /CALENDAR WIDGET HEADER ACTIONS -->
@@ -185,14 +185,6 @@
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day inactive">
                         <!-- CALENDAR DAY NUMBER -->
-                        <p class="calendar-day-number">29</p>
-                        <!-- /CALENDAR DAY NUMBER -->
-                    </div>
-                    <!-- /CALENDAR DAY -->
-
-                    <!-- CALENDAR DAY -->
-                    <div class="calendar-day inactive">
-                        <!-- CALENDAR DAY NUMBER -->
                         <p class="calendar-day-number">30</p>
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
@@ -211,13 +203,6 @@
                         <!-- CALENDAR DAY NUMBER -->
                         <p class="calendar-day-number">1</p>
                         <!-- /CALENDAR DAY NUMBER -->
-                        <!-- CALENDARY DAY EVENTS -->
-                        <div class="calendar-day-events" style="display: none;" id="newEvent">
-                            <!-- CALENDAR DAY EVENT -->
-                            <p class="calendar-day-event secondary popup-event-information-trigger"><span class="calendar-day-event-text">Первое сентября</span></p>
-                            <!-- /CALENDAR DAY EVENT -->
-                        </div>
-                        <!-- /CALENDAR DAY EVENTS -->
                     </div>
                     <!-- /CALENDAR DAY -->
 
@@ -256,11 +241,7 @@
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
-                </div>
-                <!-- /CALENDAR DAY ROW -->
 
-                <!-- CALENDAR DAY ROW -->
-                <div class="calendar-day-row">
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day">
                         <!-- CALENDAR DAY NUMBER -->
@@ -268,7 +249,11 @@
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
+                </div>
+                <!-- /CALENDAR DAY ROW -->
 
+                <!-- CALENDAR DAY ROW -->
+                <div class="calendar-day-row">
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day">
                         <!-- CALENDAR DAY NUMBER -->
@@ -278,7 +263,7 @@
                     <!-- /CALENDAR DAY -->
 
                     <!-- CALENDAR DAY -->
-                    <div class="calendar-day current">
+                    <div class="calendar-day">
                         <!-- CALENDAR DAY NUMBER -->
                         <p class="calendar-day-number">7</p>
                         <!-- /CALENDAR DAY NUMBER -->
@@ -286,7 +271,7 @@
                     <!-- /CALENDAR DAY -->
 
                     <!-- CALENDAR DAY -->
-                    <div class="calendar-day">
+                    <div class="calendar-day current">
                         <!-- CALENDAR DAY NUMBER -->
                         <p class="calendar-day-number">8</p>
                         <!-- /CALENDAR DAY NUMBER -->
@@ -316,6 +301,14 @@
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
+
+                    <!-- CALENDAR DAY -->
+                    <div class="calendar-day">
+                        <!-- CALENDAR DAY NUMBER -->
+                        <p class="calendar-day-number">12</p>
+                        <!-- /CALENDAR DAY NUMBER -->
+                    </div>
+                    <!-- /CALENDAR DAY -->
                 </div>
                 <!-- /CALENDAR DAY ROW -->
 
@@ -324,7 +317,7 @@
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day">
                         <!-- CALENDAR DAY NUMBER -->
-                        <p class="calendar-day-number">12</p>
+                        <p class="calendar-day-number">13</p>
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
@@ -332,7 +325,7 @@
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day active">
                         <!-- CALENDAR DAY NUMBER -->
-                        <p class="calendar-day-number">13</p>
+                        <p class="calendar-day-number">14</p>
                         <!-- /CALENDAR DAY NUMBER -->
 
                         <!-- CALENDARY DAY EVENTS -->
@@ -346,14 +339,6 @@
                             <!-- /CALENDAR DAY EVENT -->
                         </div>
                         <!-- /CALENDAR DAY EVENTS -->
-                    </div>
-                    <!-- /CALENDAR DAY -->
-
-                    <!-- CALENDAR DAY -->
-                    <div class="calendar-day">
-                        <!-- CALENDAR DAY NUMBER -->
-                        <p class="calendar-day-number">14</p>
-                        <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
 
@@ -378,6 +363,13 @@
                         <!-- CALENDAR DAY NUMBER -->
                         <p class="calendar-day-number">17</p>
                         <!-- /CALENDAR DAY NUMBER -->
+                        <!-- CALENDARY DAY EVENTS -->
+                        <div class="calendar-day-events" style="display: none;" id="newEvent">
+                            <!-- CALENDAR DAY EVENT -->
+                            <p class="calendar-day-event primary popup-event-information-trigger"><span class="calendar-day-event-text">Экзамен по информатике</span></p>
+                            <!-- /CALENDAR DAY EVENT -->
+                        </div>
+                        <!-- /CALENDAR DAY EVENTS -->
                     </div>
                     <!-- /CALENDAR DAY -->
 
@@ -388,11 +380,7 @@
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
-                </div>
-                <!-- /CALENDAR DAY ROW -->
 
-                <!-- CALENDAR DAY ROW -->
-                <div class="calendar-day-row">
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day">
                         <!-- CALENDAR DAY NUMBER -->
@@ -400,7 +388,11 @@
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
+                </div>
+                <!-- /CALENDAR DAY ROW -->
 
+                <!-- CALENDAR DAY ROW -->
+                <div class="calendar-day-row">
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day">
                         <!-- CALENDAR DAY NUMBER -->
@@ -448,11 +440,7 @@
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
-                </div>
-                <!-- /CALENDAR DAY ROW -->
 
-                <!-- CALENDAR DAY ROW -->
-                <div class="calendar-day-row">
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day">
                         <!-- CALENDAR DAY NUMBER -->
@@ -460,7 +448,11 @@
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
+                </div>
+                <!-- /CALENDAR DAY ROW -->
 
+                <!-- CALENDAR DAY ROW -->
+                <div class="calendar-day-row">
                     <!-- CALENDAR DAY -->
                     <div class="calendar-day">
                         <!-- CALENDAR DAY NUMBER -->
@@ -508,6 +500,14 @@
                         <!-- /CALENDAR DAY NUMBER -->
                     </div>
                     <!-- /CALENDAR DAY -->
+
+                    <!-- CALENDAR DAY -->
+                    <div class="calendar-day inactive">
+                        <!-- CALENDAR DAY NUMBER -->
+                        <p class="calendar-day-number">3</p>
+                        <!-- /CALENDAR DAY NUMBER -->
+                    </div>
+                    <!-- /CALENDAR DAY -->
                 </div>
                 <!-- /CALENDAR DAY ROW -->
             </div>
@@ -552,6 +552,21 @@
         </div>
         <!-- /FORM ROW -->
 
+        <!-- FORM ROW -->
+        <div class="form-row">
+            <!-- FORM ITEM -->
+            <div class="form-item">
+                <!-- FORM INPUT -->
+                <div class="form-input small">
+                    <label for="event-name">Описание события</label>
+                    <input type="text" id="event-name" name="event_name">
+                </div>
+                <!-- /FORM INPUT -->
+            </div>
+            <!-- /FORM ITEM -->
+        </div>
+        <!-- /FORM ROW -->
+
 
         <!-- FORM ROW -->
         <div class="form-row">
@@ -562,7 +577,7 @@
                     <!-- FORM INPUT -->
                     <div class="form-input small">
                         <label for="event-date" style="position: initial">Начало события</label>
-                        <input type="datetime-local" id="event-date" name="event_date" style="background-color: #fff; border: 1px solid #dedeea; color: #3e3f5e; transition: border-color .2s ease-in-out; width: 100%;
+                        <input type="datetime-local" id="event-date" value="2022-06-13T18:30" name="event_date" style="background-color: #fff; border: 1px solid #dedeea; color: #3e3f5e; transition: border-color .2s ease-in-out; width: 100%;
     border-radius: 12px;
     font-size: 1rem;
     font-weight: 700; padding: 20px; margin-top: 10px">
@@ -584,7 +599,7 @@
                     <!-- FORM INPUT -->
                     <div class="form-input small">
                         <label for="event-date" style="position: initial">Окончание события</label>
-                        <input type="datetime-local" id="event-date" name="event_date" style="background-color: #fff; border: 1px solid #dedeea; color: #3e3f5e; transition: border-color .2s ease-in-out; width: 100%;
+                        <input type="datetime-local" id="event-date" value="2022-06-13T18:30" name="event_date" style="background-color: #fff; border: 1px solid #dedeea; color: #3e3f5e; transition: border-color .2s ease-in-out; width: 100%;
     border-radius: 12px;
     font-size: 1rem;
     font-weight: 700; padding: 20px; margin-top: 10px">
@@ -631,7 +646,7 @@
     <!-- POPUP EVENT INFO -->
     <div class="popup-event-info">
         <!-- POPUP EVENT TITLE -->
-        <p class="popup-event-title">Первое сентября</p>
+        <p class="popup-event-title">Экзамен по информатике</p>
         <!-- /POPUP EVENT TITLE -->
 
         <!-- DECORATED FEATURE LIST -->
@@ -647,7 +662,7 @@
                 <!-- DECORATED FEATURE INFO -->
                 <div class="decorated-feature-info">
                     <!-- DECORATED FEATURE TITLE -->
-                    <p class="decorated-feature-title">Четверг, 1 сентября - 2022</p>
+                    <p class="decorated-feature-title">Пятница, 17 июня - 2022</p>
                     <!-- /DECORATED FEATURE TITLE -->
 
                     <!-- DECORATED FEATURE TEXT -->
@@ -686,7 +701,7 @@
         <!-- /POPUP EVENT SUBTITLE -->
 
         <!-- POPUP EVENT TEXT -->
-        <p class="popup-event-text" style="margin: 0; padding: 0">Пора в школу</p>
+        <p class="popup-event-text" style="margin: 0; padding: 0">Аудитория 1310</p>
         <!-- /POPUP EVENT TEXT -->
 
         <!-- POPUP EVENT BUTTON -->

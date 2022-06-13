@@ -1,3 +1,18 @@
+<script>
+    import { onMount } from 'svelte';
+
+
+    let editProdile = () => {
+        localStorage.setItem('userAbout', 'Всем привет! Меня зовут Марина. Живу и учусь в Казани. Хочу стать крутой программисткой.');
+        window.location.reload()
+    };
+
+    let userAbout;
+    if (typeof window !== 'undefined') {
+        userAbout = localStorage.getItem('userAbout');
+    }
+</script>
+
 <!-- CONTENT GRID -->
 <div style="transition: transform 0.4s ease-in-out 0s;">
     <!-- SECTION BANNER -->
@@ -84,7 +99,11 @@
                                 <div class="form-item">
                                     <!-- FORM INPUT -->
                                     <div class="form-input small full">
-                                        <textarea id="profile-description" name="profile_description" placeholder="Расскажите немного о себе..."></textarea>
+                                        {#if userAbout}
+                                            <textarea id="profile-description" name="profile_description">{userAbout}</textarea>
+                                        {:else}
+                                            <textarea id="profile-description" name="profile_description" placeholder="Расскажите немного о себе..."></textarea>
+                                        {/if}
                                     </div>
                                     <!-- /FORM INPUT -->
                                 </div>
@@ -206,7 +225,7 @@
                 <!-- SIDEBAR BOX FOOTER -->
                 <div class="sidebar-box-footer">
                     <!-- BUTTON -->
-                    <p class="button primary">Сохранить</p>
+                    <p on:click={editProdile} class="button primary">Сохранить</p>
                     <!-- /BUTTON -->
                 </div>
                 <!-- /SIDEBAR BOX FOOTER -->

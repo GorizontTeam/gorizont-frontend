@@ -1346,87 +1346,249 @@
 								<div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden scroll;">
 									<div class="simplebar-content" style="padding: 0px;">
 
-						<!-- DROPDOWN BOX LIST ITEM -->
-						<div class="dropdown-box-list-item">
-							<!-- USER STATUS -->
-							<div class="user-status notification">
-								<!-- USER STATUS AVATAR -->
-								<a class="user-status-avatar" href="profile-timeline.html">
-									<!-- USER AVATAR -->
-									<div class="user-avatar small no-outline">
-										<!-- USER AVATAR CONTENT -->
-										<div class="user-avatar-content">
-											<!-- HEXAGON -->
-											<div class="hexagon-image-30-32" data-src="img/avatar/07.jpg" style="width: 30px; height: 32px; position: relative;"><canvas width="30" height="32" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
-											<!-- /HEXAGON -->
-										</div>
-										<!-- /USER AVATAR CONTENT -->
+<!--						&lt;!&ndash; DROPDOWN BOX LIST ITEM &ndash;&gt;-->
+<!--						<div class="dropdown-box-list-item">-->
+<!--							&lt;!&ndash; USER STATUS &ndash;&gt;-->
+<!--							<div class="user-status notification">-->
+<!--								&lt;!&ndash; USER STATUS AVATAR &ndash;&gt;-->
+<!--								<a class="user-status-avatar" href="profile-timeline.html">-->
+<!--									&lt;!&ndash; USER AVATAR &ndash;&gt;-->
+<!--									<div class="user-avatar small no-outline">-->
+<!--										&lt;!&ndash; USER AVATAR CONTENT &ndash;&gt;-->
+<!--										<div class="user-avatar-content">-->
+<!--											&lt;!&ndash; HEXAGON &ndash;&gt;-->
+<!--											<div class="hexagon-image-30-32" data-src="img/avatar/07.jpg" style="width: 30px; height: 32px; position: relative;"><canvas width="30" height="32" style="position: absolute; top: 0px; left: 0px;"></canvas></div>-->
+<!--											&lt;!&ndash; /HEXAGON &ndash;&gt;-->
+<!--										</div>-->
+<!--										&lt;!&ndash; /USER AVATAR CONTENT &ndash;&gt;-->
 
-										<!-- USER AVATAR PROGRESS -->
-										<div class="user-avatar-progress">
-											<!-- HEXAGON -->
-											<div class="hexagon-progress-40-44" style="width: 40px; height: 44px; position: relative;"><canvas width="40" height="44" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
-											<!-- /HEXAGON -->
-										</div>
-										<!-- /USER AVATAR PROGRESS -->
+<!--										&lt;!&ndash; USER AVATAR PROGRESS &ndash;&gt;-->
+<!--										<div class="user-avatar-progress">-->
+<!--											&lt;!&ndash; HEXAGON &ndash;&gt;-->
+<!--											<div class="hexagon-progress-40-44" style="width: 40px; height: 44px; position: relative;"><canvas width="40" height="44" style="position: absolute; top: 0px; left: 0px;"></canvas></div>-->
+<!--											&lt;!&ndash; /HEXAGON &ndash;&gt;-->
+<!--										</div>-->
+<!--										&lt;!&ndash; /USER AVATAR PROGRESS &ndash;&gt;-->
 
-										<!-- USER AVATAR PROGRESS BORDER -->
-										<div class="user-avatar-progress-border">
-											<!-- HEXAGON -->
-											<div class="hexagon-border-40-44" style="width: 40px; height: 44px; position: relative;"><canvas width="40" height="44" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
-											<!-- /HEXAGON -->
-										</div>
-										<!-- /USER AVATAR PROGRESS BORDER -->
+<!--										&lt;!&ndash; USER AVATAR PROGRESS BORDER &ndash;&gt;-->
+<!--										<div class="user-avatar-progress-border">-->
+<!--											&lt;!&ndash; HEXAGON &ndash;&gt;-->
+<!--											<div class="hexagon-border-40-44" style="width: 40px; height: 44px; position: relative;"><canvas width="40" height="44" style="position: absolute; top: 0px; left: 0px;"></canvas></div>-->
+<!--											&lt;!&ndash; /HEXAGON &ndash;&gt;-->
+<!--										</div>-->
+<!--										&lt;!&ndash; /USER AVATAR PROGRESS BORDER &ndash;&gt;-->
 
-										<!-- USER AVATAR BADGE -->
-										<div class="user-avatar-badge">
-											<!-- USER AVATAR BADGE BORDER -->
-											<div class="user-avatar-badge-border">
-												<!-- HEXAGON -->
-												<div class="hexagon-22-24" style="width: 22px; height: 24px; position: relative;"><canvas width="22" height="24" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
-												<!-- /HEXAGON -->
+<!--										&lt;!&ndash; USER AVATAR BADGE &ndash;&gt;-->
+<!--										<div class="user-avatar-badge">-->
+<!--											&lt;!&ndash; USER AVATAR BADGE BORDER &ndash;&gt;-->
+<!--											<div class="user-avatar-badge-border">-->
+<!--												&lt;!&ndash; HEXAGON &ndash;&gt;-->
+<!--												<div class="hexagon-22-24" style="width: 22px; height: 24px; position: relative;"><canvas width="22" height="24" style="position: absolute; top: 0px; left: 0px;"></canvas></div>-->
+<!--												&lt;!&ndash; /HEXAGON &ndash;&gt;-->
+<!--											</div>-->
+<!--											&lt;!&ndash; /USER AVATAR BADGE BORDER &ndash;&gt;-->
+
+<!--											&lt;!&ndash; USER AVATAR BADGE CONTENT &ndash;&gt;-->
+<!--											<div class="user-avatar-badge-content">-->
+<!--												&lt;!&ndash; HEXAGON &ndash;&gt;-->
+<!--												<div class="hexagon-dark-16-18" style="width: 16px; height: 18px; position: relative;"><canvas width="16" height="18" style="position: absolute; top: 0px; left: 0px;"></canvas></div>-->
+<!--												&lt;!&ndash; /HEXAGON &ndash;&gt;-->
+<!--											</div>-->
+<!--											&lt;!&ndash; /USER AVATAR BADGE CONTENT &ndash;&gt;-->
+
+<!--											&lt;!&ndash; USER AVATAR BADGE TEXT &ndash;&gt;-->
+<!--											<p class="user-avatar-badge-text">26</p>-->
+<!--											&lt;!&ndash; /USER AVATAR BADGE TEXT &ndash;&gt;-->
+<!--										</div>-->
+<!--										&lt;!&ndash; /USER AVATAR BADGE &ndash;&gt;-->
+<!--									</div>-->
+<!--									&lt;!&ndash; /USER AVATAR &ndash;&gt;-->
+<!--								</a>-->
+<!--								&lt;!&ndash; /USER STATUS AVATAR &ndash;&gt;-->
+
+<!--								&lt;!&ndash; USER STATUS TITLE &ndash;&gt;-->
+<!--								<p class="user-status-title"><a class="bold" href="profile-timeline.html">Вы приняты!</a><br> Наставник принял вашу заявку! Можете связаться с <a class="highlighted" href="profile-timeline.html">ним</a> </p>-->
+<!--								&lt;!&ndash; /USER STATUS TITLE &ndash;&gt;-->
+
+<!--								&lt;!&ndash; USER STATUS TIMESTAMP &ndash;&gt;-->
+<!--								<p class="user-status-timestamp">5 минут назад</p>-->
+<!--								&lt;!&ndash; /USER STATUS TIMESTAMP &ndash;&gt;-->
+
+<!--								&lt;!&ndash; USER STATUS ICON &ndash;&gt;-->
+<!--								<div class="user-status-icon">-->
+<!--									&lt;!&ndash; ICON THUMBS UP &ndash;&gt;-->
+<!--									<svg class="icon-thumbs-up">-->
+<!--										<use xlink:href="#svg-thumbs-up"></use>-->
+<!--									</svg>-->
+<!--									&lt;!&ndash; /ICON THUMBS UP &ndash;&gt;-->
+<!--								</div>-->
+<!--								&lt;!&ndash; /USER STATUS ICON &ndash;&gt;-->
+<!--							</div>-->
+<!--							&lt;!&ndash; /USER STATUS &ndash;&gt;-->
+<!--						</div>-->
+<!--						&lt;!&ndash; /DROPDOWN BOX LIST ITEM &ndash;&gt;-->
+										<!-- DROPDOWN BOX LIST ITEM -->
+										<div class="dropdown-box-list-item">
+											<!-- USER STATUS -->
+											<div class="user-status notification">
+												<!-- USER STATUS AVATAR -->
+												<a class="user-status-avatar" href="profile-timeline.html">
+													<!-- USER AVATAR -->
+													<div class="user-avatar small no-outline">
+														<!-- USER AVATAR CONTENT -->
+														<div class="user-avatar-content">
+															<!-- HEXAGON -->
+															<div class="hexagon-image-30-32" data-src="img/avatar/07.jpg" style="width: 30px; height: 32px; position: relative;"><canvas width="30" height="32" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+															<!-- /HEXAGON -->
+														</div>
+														<!-- /USER AVATAR CONTENT -->
+
+														<!-- USER AVATAR PROGRESS -->
+														<div class="user-avatar-progress">
+															<!-- HEXAGON -->
+															<div class="hexagon-progress-40-44" style="width: 40px; height: 44px; position: relative;"><canvas width="40" height="44" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+															<!-- /HEXAGON -->
+														</div>
+														<!-- /USER AVATAR PROGRESS -->
+
+														<!-- USER AVATAR PROGRESS BORDER -->
+														<div class="user-avatar-progress-border">
+															<!-- HEXAGON -->
+															<div class="hexagon-border-40-44" style="width: 40px; height: 44px; position: relative;"><canvas width="40" height="44" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+															<!-- /HEXAGON -->
+														</div>
+														<!-- /USER AVATAR PROGRESS BORDER -->
+
+														<!-- USER AVATAR BADGE -->
+														<div class="user-avatar-badge">
+															<!-- USER AVATAR BADGE BORDER -->
+															<div class="user-avatar-badge-border">
+																<!-- HEXAGON -->
+																<div class="hexagon-22-24" style="width: 22px; height: 24px; position: relative;"><canvas width="22" height="24" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+																<!-- /HEXAGON -->
+															</div>
+															<!-- /USER AVATAR BADGE BORDER -->
+
+															<!-- USER AVATAR BADGE CONTENT -->
+															<div class="user-avatar-badge-content">
+																<!-- HEXAGON -->
+																<div class="hexagon-dark-16-18" style="width: 16px; height: 18px; position: relative;"><canvas width="16" height="18" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+																<!-- /HEXAGON -->
+															</div>
+															<!-- /USER AVATAR BADGE CONTENT -->
+
+															<!-- USER AVATAR BADGE TEXT -->
+															<p class="user-avatar-badge-text">26</p>
+															<!-- /USER AVATAR BADGE TEXT -->
+														</div>
+														<!-- /USER AVATAR BADGE -->
+													</div>
+													<!-- /USER AVATAR -->
+												</a>
+												<!-- /USER STATUS AVATAR -->
+
+												<!-- USER STATUS TITLE -->
+												<p class="user-status-title"><a class="bold" href="profile-timeline.html">Достижения</a><br> Ты получил достижение <a class="highlighted" href="profile-timeline.html">Будем знакомы</a>. Так держать!</p>
+												<!-- /USER STATUS TITLE -->
+
+												<!-- USER STATUS TIMESTAMP -->
+												<p class="user-status-timestamp">только что</p>
+												<!-- /USER STATUS TIMESTAMP -->
+
+												<!-- USER STATUS ICON -->
+												<div class="user-status-icon">
+													<!-- ICON THUMBS UP -->
+													<svg class="icon-thumbs-up">
+														<use xlink:href="#svg-thumbs-up"></use>
+													</svg>
+													<!-- /ICON THUMBS UP -->
+												</div>
+												<!-- /USER STATUS ICON -->
 											</div>
-											<!-- /USER AVATAR BADGE BORDER -->
-
-											<!-- USER AVATAR BADGE CONTENT -->
-											<div class="user-avatar-badge-content">
-												<!-- HEXAGON -->
-												<div class="hexagon-dark-16-18" style="width: 16px; height: 18px; position: relative;"><canvas width="16" height="18" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
-												<!-- /HEXAGON -->
-											</div>
-											<!-- /USER AVATAR BADGE CONTENT -->
-
-											<!-- USER AVATAR BADGE TEXT -->
-											<p class="user-avatar-badge-text">26</p>
-											<!-- /USER AVATAR BADGE TEXT -->
+											<!-- /USER STATUS -->
 										</div>
-										<!-- /USER AVATAR BADGE -->
-									</div>
-									<!-- /USER AVATAR -->
-								</a>
-								<!-- /USER STATUS AVATAR -->
+										<!-- /DROPDOWN BOX LIST ITEM -->
+										<!-- DROPDOWN BOX LIST ITEM -->
+										<div class="dropdown-box-list-item">
+											<!-- USER STATUS -->
+											<div class="user-status notification">
+												<!-- USER STATUS AVATAR -->
+												<a class="user-status-avatar" href="profile-timeline.html">
+													<!-- USER AVATAR -->
+													<div class="user-avatar small no-outline">
+														<!-- USER AVATAR CONTENT -->
+														<div class="user-avatar-content">
+															<!-- HEXAGON -->
+															<div class="hexagon-image-30-32" data-src="img/avatar/07.jpg" style="width: 30px; height: 32px; position: relative;"><canvas width="30" height="32" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+															<!-- /HEXAGON -->
+														</div>
+														<!-- /USER AVATAR CONTENT -->
 
-								<!-- USER STATUS TITLE -->
-								<p class="user-status-title"><a class="bold" href="profile-timeline.html">Вы приняты!</a><br> Наставник принял вашу заявку! Можете связаться с <a class="highlighted" href="profile-timeline.html">ним</a> </p>
-								<!-- /USER STATUS TITLE -->
+														<!-- USER AVATAR PROGRESS -->
+														<div class="user-avatar-progress">
+															<!-- HEXAGON -->
+															<div class="hexagon-progress-40-44" style="width: 40px; height: 44px; position: relative;"><canvas width="40" height="44" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+															<!-- /HEXAGON -->
+														</div>
+														<!-- /USER AVATAR PROGRESS -->
 
-								<!-- USER STATUS TIMESTAMP -->
-								<p class="user-status-timestamp">5 минут назад</p>
-								<!-- /USER STATUS TIMESTAMP -->
+														<!-- USER AVATAR PROGRESS BORDER -->
+														<div class="user-avatar-progress-border">
+															<!-- HEXAGON -->
+															<div class="hexagon-border-40-44" style="width: 40px; height: 44px; position: relative;"><canvas width="40" height="44" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+															<!-- /HEXAGON -->
+														</div>
+														<!-- /USER AVATAR PROGRESS BORDER -->
 
-								<!-- USER STATUS ICON -->
-								<div class="user-status-icon">
-									<!-- ICON THUMBS UP -->
-									<svg class="icon-thumbs-up">
-										<use xlink:href="#svg-thumbs-up"></use>
-									</svg>
-									<!-- /ICON THUMBS UP -->
-								</div>
-								<!-- /USER STATUS ICON -->
-							</div>
-							<!-- /USER STATUS -->
-						</div>
-						<!-- /DROPDOWN BOX LIST ITEM -->
+														<!-- USER AVATAR BADGE -->
+														<div class="user-avatar-badge">
+															<!-- USER AVATAR BADGE BORDER -->
+															<div class="user-avatar-badge-border">
+																<!-- HEXAGON -->
+																<div class="hexagon-22-24" style="width: 22px; height: 24px; position: relative;"><canvas width="22" height="24" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+																<!-- /HEXAGON -->
+															</div>
+															<!-- /USER AVATAR BADGE BORDER -->
+
+															<!-- USER AVATAR BADGE CONTENT -->
+															<div class="user-avatar-badge-content">
+																<!-- HEXAGON -->
+																<div class="hexagon-dark-16-18" style="width: 16px; height: 18px; position: relative;"><canvas width="16" height="18" style="position: absolute; top: 0px; left: 0px;"></canvas></div>
+																<!-- /HEXAGON -->
+															</div>
+															<!-- /USER AVATAR BADGE CONTENT -->
+
+															<!-- USER AVATAR BADGE TEXT -->
+															<p class="user-avatar-badge-text">26</p>
+															<!-- /USER AVATAR BADGE TEXT -->
+														</div>
+														<!-- /USER AVATAR BADGE -->
+													</div>
+													<!-- /USER AVATAR -->
+												</a>
+												<!-- /USER STATUS AVATAR -->
+
+												<!-- USER STATUS TITLE -->
+												<p class="user-status-title"><a class="bold" href="profile-timeline.html">Вызов!</a><br> Ты отлично справляешься! Сможешь ли ты получить достижение <a class="highlighted" href="profile-timeline.html">Герой</a>?</p>
+												<!-- /USER STATUS TITLE -->
+
+												<!-- USER STATUS TIMESTAMP -->
+												<p class="user-status-timestamp">только что</p>
+												<!-- /USER STATUS TIMESTAMP -->
+
+												<!-- USER STATUS ICON -->
+												<div class="user-status-icon">
+													<!-- ICON THUMBS UP -->
+													<svg class="icon-thumbs-up">
+														<use xlink:href="#svg-thumbs-up"></use>
+													</svg>
+													<!-- /ICON THUMBS UP -->
+												</div>
+												<!-- /USER STATUS ICON -->
+											</div>
+											<!-- /USER STATUS -->
+										</div>
+										<!-- /DROPDOWN BOX LIST ITEM -->
 
 					</div></div></div></div><div class="simplebar-placeholder" style="width: auto; height: 481px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="width: 0px; display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: visible;"><div class="simplebar-scrollbar" style="height: 366px; transform: translate3d(0px, 0px, 0px); display: block;"></div></div></div>
 					<!-- /DROPDOWN BOX LIST -->

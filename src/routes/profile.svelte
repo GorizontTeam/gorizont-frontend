@@ -4,9 +4,11 @@
     import { onDestroy } from 'svelte';
 
     let user;
+    let userAbout;
 
     if (typeof window !== 'undefined') {
         user = JSON.parse(localStorage.getItem('user')).user;
+        userAbout = localStorage.getItem('userAbout');
     }
 
     let refreshed = false;
@@ -324,41 +326,43 @@
 
         <!-- GRID COLUMN -->
         <div class="grid-column">
-            <!-- WIDGET BOX -->
-            <div class="widget-box">
-                <!-- WIDGET BOX SETTINGS -->
-                <div class="widget-box-settings">
-                    <!-- POST SETTINGS WRAP -->
-                    <div class="post-settings-wrap">
-                        <!-- POST SETTINGS -->
-                        <div class="post-settings widget-box-post-settings-dropdown-trigger">
-                            <!-- POST SETTINGS ICON -->
-                            <svg class="post-settings-icon icon-more-dots">
-                                <use xlink:href="#svg-more-dots"></use>
-                            </svg>
-                            <!-- /POST SETTINGS ICON -->
+            {#if userAbout}
+                <!-- WIDGET BOX -->
+                <div class="widget-box">
+                    <!-- WIDGET BOX SETTINGS -->
+                    <div class="widget-box-settings">
+                        <!-- POST SETTINGS WRAP -->
+                        <div class="post-settings-wrap">
+                            <!-- POST SETTINGS -->
+                            <div class="post-settings widget-box-post-settings-dropdown-trigger">
+                                <!-- POST SETTINGS ICON -->
+                                <svg class="post-settings-icon icon-more-dots">
+                                    <use xlink:href="#svg-more-dots"></use>
+                                </svg>
+                                <!-- /POST SETTINGS ICON -->
+                            </div>
+                            <!-- /POST SETTINGS -->
                         </div>
-                        <!-- /POST SETTINGS -->
+                        <!-- /POST SETTINGS WRAP -->
                     </div>
-                    <!-- /POST SETTINGS WRAP -->
-                </div>
-                <!-- /WIDGET BOX SETTINGS -->
+                    <!-- /WIDGET BOX SETTINGS -->
 
-                <!-- WIDGET BOX TITLE -->
-                <p class="widget-box-title">Обо мне</p>
-                <!-- /WIDGET BOX TITLE -->
+                    <!-- WIDGET BOX TITLE -->
+                    <p class="widget-box-title">Обо мне</p>
+                    <!-- /WIDGET BOX TITLE -->
 
-                <!-- WIDGET BOX CONTENT -->
-                <div class="widget-box-content">
-                    <!-- PARAGRAPH -->
-                    <p class="paragraph">
-                        Привет! Меня зовут Марина. Живу и учусь в Казани. Хочу стать крутой программисткой.
-                    </p>
-                    <!-- /PARAGRAPH -->
+                    <!-- WIDGET BOX CONTENT -->
+                    <div class="widget-box-content">
+                        <!-- PARAGRAPH -->
+                        <p class="paragraph">
+                            Всем привет! Меня зовут Марина. Живу и учусь в Казани. Хочу стать крутой программисткой.
+                        </p>
+                        <!-- /PARAGRAPH -->
+                    </div>
+                    <!-- /WIDGET BOX CONTENT -->
                 </div>
-                <!-- /WIDGET BOX CONTENT -->
-            </div>
-            <!-- /WIDGET BOX -->
+                <!-- /WIDGET BOX -->
+            {/if}
 
             <!-- WIDGET BOX -->
             <div class="widget-box">
