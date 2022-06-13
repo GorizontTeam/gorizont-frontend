@@ -16,7 +16,7 @@
 
 
 <!-- CONTENT GRID -->
-<div class="content-grid">
+<div class="container">
     <!-- PROFILE HEADER -->
     <div class="profile-header">
         <!-- PROFILE HEADER COVER -->
@@ -163,7 +163,7 @@
     <!-- /PROFILE HEADER -->
 
     <!-- SECTION NAVIGATION -->
-    <nav class="section-navigation" style="display: flex; justify-content: center">
+    <nav class="section-navigation mt-4" style="display: flex; justify-content: center">
         <!-- SECTION MENU -->
         <div class="section-menu">
             <!-- SECTION MENU ITEM -->
@@ -181,7 +181,7 @@
             <!-- /SECTION MENU ITEM -->
 
             <!-- SECTION MENU ITEM -->
-            <a class="section-menu-item" href="profile-timeline.html">
+            <a class="section-menu-item" href="/calendar">
                 <!-- SECTION MENU ITEM ICON -->
                 <svg class="section-menu-item-icon icon-timeline">
                     <use xlink:href="#svg-timeline"></use>
@@ -283,7 +283,7 @@
     <!-- /SECTION NAVIGATION -->
 
     <!-- GRID -->
-    <div class="grid grid-3-6-3">
+    <div class="grid grid-3-6-3 mt-4">
         <!-- GRID COLUMN -->
         <div class="grid-column">
             <!-- WIDGET BOX -->

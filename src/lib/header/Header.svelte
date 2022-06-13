@@ -938,7 +938,7 @@
 				<!-- MENU MAIN ITEM -->
 				<li class="menu-main-item">
 					<!-- MENU MAIN ITEM LINK -->
-					<a class="menu-main-item-link" href="#">Личный кабинет</a>
+					<a class="menu-main-item-link" href="/profile">Личный кабинет</a>
 					<!-- /MENU MAIN ITEM LINK -->
 				</li>
 				<!-- /MENU MAIN ITEM -->
