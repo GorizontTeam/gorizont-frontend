@@ -14,12 +14,11 @@
             <div class="stream-box-info" style="padding: 28px 28px 28px 28px; display: flex; justify-content: space-between">
                 <div>
                     <!-- STREAM BOX TITLE -->
-                    <p class="stream-box-title">Название задания</p>
+                    <p class="stream-box-title">Задание «Потерянная карточка»</p>
                     <!-- /STREAM BOX TITLE -->
 
                     <!-- STREAM BOX VIEWS -->
                     <p class="stream-box-views">15 баллов</p>
-                    <p class="stream-box-views">критерий оценки</p>
                     <!-- /STREAM BOX VIEWS -->
                 </div>
                 <div>
@@ -35,19 +34,29 @@
         <!-- WIDGET BOX -->
         <div class="widget-box">
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title">Описание:</p>
+            <p class="widget-box-title mb-2">Описание задания:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
-            <p class="widget-box-text">Описание задания</p>
+            <p class="widget-box-text">
+                Для настольной игры используются карточки с номерами от 1 до N. Одна карточка потерялась. Найдите ее, зная номера оставшихся карточек.
+                Дано число N, далее N − 1 номер оставшихся карточек (различные числа от 1 до N). Программа должна вывести номер потерянной карточки.
+            </p>
+            <p class="widget-box-text">
+                Для самых умных: массивами и аналогичными структурами данных пользоваться нельзя.
+            </p>
+            <p class="widget-box-text">
+                Начальный код написан и прикреплен к заданию. Скачать файл, дописать задачу в файле, сохранить, загрузить сюда и отправить на проверку.
+            </p>
             <!-- /WIDGET BOX CONTENT -->
-        </div>
-        <!-- /WIDGET BOX -->
 
-        <!-- WIDGET BOX -->
-        <div class="widget-box">
+            <p class="widget-box-title mt-5 mb-2">Критерии оценки:</p>
+            <p class="widget-box-text">
+                Задача должна быть полностью выполнена. За полное выполнение пользователь получает 10 баллов.
+            </p>
+
             <!-- WIDGET BOX TITLE -->
-            <p class="widget-box-title mb-3">Файлы:</p>
+            <p class="widget-box-title mb-3 mt-5">Файлы:</p>
             <!-- /WIDGET BOX TITLE -->
 
             <!-- WIDGET BOX CONTENT -->
